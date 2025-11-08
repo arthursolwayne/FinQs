@@ -1,6 +1,27 @@
 # Finance Agent Evaluation
 
-This repository contains a set of 45 finance-related questions for evaluation, along with tools to help answer them.
+This repository contains a set of 50 finance-related questions for evaluation, along with tools to help answer them.
+
+## Task
+
+You are a financial agent. Today is November 07, 2025. Answer all 50 questions in `data/questions.csv` using the tools provided.
+
+For each question:
+- Use the available tools to research and find accurate answers
+- When you have the answer, format it as `FINAL ANSWER:` followed by your answer
+- Provide sources in this format:
+```json
+{
+    "sources": [
+        {
+            "url": "https://example.com",
+            "name": "Name of the source"
+        }
+    ]
+}
+```
+
+Save all answers in a structured format (CSV/JSON) for later scoring.
 
 ## Questions
 
@@ -76,7 +97,3 @@ answer = retrieve_information("What was the revenue?", data_store)
 ```
 
 The `llm.py` module provides LLM client functionality if you need to call language models directly.
-
-## Task
-
-Answer all 45 questions in `data/questions.csv` using the available tools. Save your answers in a format that allows for easy comparison and scoring.
