@@ -443,5 +443,66 @@
         "name": "Zillow - Wikipedia"
       }
     ]
+  },
+  {
+    "question_number": 42,
+    "question": "Compare the FY24 dividend payout ratio of Coca-Cola (KO) to that of its competitors and rank in order from highest to lowest",
+    "answer": "FINAL ANSWER: Based on FY2024 data, ranking beverage companies by dividend payout ratio from highest to lowest:\n\n1. **PepsiCo (PEP): 105.4%** - Highest payout ratio, with dividends currently exceeding trailing earnings\n\n2. **Keurig Dr Pepper (KDP): 78.89%** - Mid-range payout ratio with room for growth\n\n3. **Coca-Cola (KO): 66.5%** - Lowest payout ratio among the three\n\nAlternative Ranking (using comparable/Non-GAAP EPS):\nUsing comparable (Non-GAAP) EPS provides a more sustainable view:\n- Coca-Cola (KO): 70.8% (based on comparable EPS vs 82.6% using reported GAAP EPS)\n- Both KO and PEP were at 74% as of mid-2024 in some reports\n\nKey Insights:\n- PepsiCo's 105.4% payout ratio suggests current dividends exceed recent earnings, which may not be sustainable long-term\n- Keurig Dr Pepper's lower payout ratio (78.89%) provides more room for dividend growth compared to KO and PEP\n- Coca-Cola's 66.5% payout ratio offers a balance between current income and future growth potential\n\nNote: \"Dr Pepper DPS\" referenced in the question is now Keurig Dr Pepper (KDP) after the 2018 merger of Keurig Green Mountain and Dr Pepper Snapple Group.",
+    "sources": [
+      {
+        "url": "https://fullratio.com/stocks/nyse-ko/dividend",
+        "name": "Coca-Cola Dividend Payout Ratio"
+      },
+      {
+        "url": "https://www.fool.com/investing/2024/05/04/dividend-investors-love-coca-cola-stock-and-pepsi/",
+        "name": "Beverage Stock Dividend Analysis - Motley Fool"
+      },
+      {
+        "url": "https://www.gurufocus.com/term/payout/KO",
+        "name": "KO Dividend Payout Ratio - GuruFocus"
+      }
+    ]
+  },
+  {
+    "question_number": 48,
+    "question": "How did Lemonade Insurance FY2024 results compare to the prior quarter's full year guidance?",
+    "answer": "FINAL ANSWER: Lemonade Insurance FY2024 results MET or EXCEEDED the full-year guidance provided in Q3 2024:\n\n**Q3 2024 Guidance for FY2024:**\n- In-Force Premium (IFP): $940-944 million\n- Gross Earned Premiums: $818-822 million\n- Revenue: $511-515 million\n- Adjusted EBITDA Loss: $155-151 million\n\n**FY2024 Actual Results:**\n- In-Force Premium: $944 million (met upper end of guidance, +26% YoY)\n- Revenue: $526.5 million (BEAT by $11.5-15.5M or ~2-3% above high end, +23% YoY)\n- Gross Profit: $167 million (doubled YoY, record high)\n- Gross Loss Ratio: 73% (improved 12 points YoY); Q4 2024: 63% (vs 77% in Q4 2023)\n- Adjusted Free Cash Flow: $48 million positive (first full year positive)\n\n**Key Achievements:**\n1. Revenue exceeded high end of guidance range\n2. IFP matched upper guidance bound\n3. Achieved first full year of positive adjusted free cash flow\n4. Customer count: 2.4 million (+20% YoY)\n5. Premium per customer: $388 (+5% YoY)\n\n**Verdict:** Lemonade delivered a strong BEAT on revenue while meeting/exceeding other key metrics, marking significant operational improvements including profitability milestones.",
+    "sources": [
+      {
+        "url": "https://investor.lemonade.com/news-and-events/news/news-details/2025/Lemonade-Announces-Fourth-Quarter-and-Full-Year-2024-Financial-Results/default.aspx",
+        "name": "Lemonade Q4 & FY2024 Results"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20250225079232/en/Lemonade-Announces-Fourth-Quarter-and-Full-Year-2024-Financial-Results",
+        "name": "Lemonade FY2024 Earnings Release"
+      },
+      {
+        "url": "https://www.lemonade.com/investor-relations-bo/wp-content/uploads/2025/04/LMND-Shareholder-Letter-Q4-2024.pdf",
+        "name": "Lemonade Q4 2024 Shareholder Letter"
+      }
+    ]
+  },
+  {
+    "question_number": 49,
+    "question": "Did General Mills beat or miss beginning of year organic net sales growth guidance in FY23 and FY24? What is the guidance for FY25?",
+    "answer": "FINAL ANSWER:\n\n**FY2023: BEAT**\n- Beginning of year guidance: Organic net sales to increase 4-5%\n- Raised guidance (after Q1): 6-7%\n- Actual result: Organic net sales increased 10%\n- **Verdict: Significant BEAT** - exceeded both initial and raised guidance\n\n**FY2024: MISS (original) / MET (revised)**\n- Beginning of year guidance: Organic net sales to increase 3-4%\n- Revised guidance (Q2): Flat to down 1% (due to weak consumer trends)\n- Actual result: Organic net sales down 1%\n- **Verdict: MISS original guidance** but met revised expectations. Company stated it \"delivered on our updated guidance in fiscal 2024\"\n\n**FY2025 Guidance and Performance:**\n- Beginning of year guidance: Organic sales growth flat to up 1%\n- Actual result: Organic net sales down 2%\n- **Verdict: MISS** - underperformed guidance, disappointing the market\n\n**FY2026 Guidance (provided with FY2025 results):**\nAs of June 2025, General Mills will need to provide FY2026 outlook. Based on FY2025 results showing continued challenges, the company is expected to provide conservative guidance focusing on stabilization.\n\n**Trend Analysis:** Deteriorating performance from strong beat in FY2023 to consecutive misses in FY2024 (on original guidance) and FY2025, reflecting challenging consumer environment and competitive pressures in the food industry.",
+    "sources": [
+      {
+        "url": "https://www.generalmills.com/news/press-releases/general-mills-reports-fiscal-2023-fourth-quarter-and-full-year-results",
+        "name": "General Mills FY2023 Results"
+      },
+      {
+        "url": "https://www.generalmills.com/news/press-releases/general-mills-reports-fiscal-2024-fourth-quarter-and-full-year-results",
+        "name": "General Mills FY2024 Results"
+      },
+      {
+        "url": "https://www.generalmills.com/news/press-releases/general-mills-reports-fiscal-2025-fourth-quarter-and-full-year-results",
+        "name": "General Mills FY2025 Results"
+      },
+      {
+        "url": "https://www.just-food.com/features/we-are-clear-on-the-job-to-do-in-fiscal-26-key-takeaways-from-general-mills-results-and-outlook/",
+        "name": "General Mills Results Analysis"
+      }
+    ]
   }
 ]
