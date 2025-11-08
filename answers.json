@@ -504,5 +504,100 @@
         "name": "General Mills Results Analysis"
       }
     ]
+  },
+  {
+    "question_number": 13,
+    "question": "What is the total amount of director compensation (in dollars) that was paid to the directors of 3D Systems in 2023?",
+    "answer": "FINAL ANSWER: Based on the available data from 3D Systems' fiscal year 2023 proxy statement and compensation disclosures, the individual director compensation amounts found include:\n\n- Charles G. McClure, Jr.: $400,000 ($250,000 cash fees + $150,000 stock awards)\n- William E. Curran: $255,000 ($105,000 cash fees + $150,000 stock awards)\n- Jim D. Kever: $220,000 ($70,000 cash fees + $150,000 stock awards)\n- Thomas W. Erickson: $228,764 ($78,764 cash + $150,000 equity)\n\nPartial Total (4 directors): $1,103,764\n\nNote: The search results provided compensation data for 4 non-employee directors. 3D Systems typically has 6-8 board members total. The complete total for all directors in 2023 would be found in the full Director Compensation Table in the DEF 14A proxy statement filed with the SEC. Based on the pattern ($150,000 equity + varying cash fees ranging from $70,000-$250,000 per director), the estimated total director compensation for all non-employee directors in 2023 would likely range from $1.5-2.5 million depending on the number of directors and their committee roles.",
+    "sources": [
+      {
+        "url": "https://www.salary.com/research/executive-compensation/charles-g-mcclure-jr-board-member-of-3d-systems-corp",
+        "name": "3D Systems Director Compensation - McClure"
+      },
+      {
+        "url": "https://www.salary.com/research/executive-compensation/william-e-curran-board-member-of-3d-systems-corp",
+        "name": "3D Systems Director Compensation - Curran"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/910638/000119312523091651/d284537ddef14a.htm",
+        "name": "3D Systems DEF 14A Proxy Statement 2023"
+      }
+    ]
+  },
+  {
+    "question_number": 14,
+    "question": "Approximate Zillow's Free Cash Flow as CFO - Capex. What is the trend of FCF margin over the last 3 years?",
+    "answer": "FINAL ANSWER: Zillow's Free Cash Flow (FCF) trend over the last 3 years shows significant volatility followed by normalization:\n\n**Free Cash Flow (CFO - Capex):**\n- 2022: $4.389 billion (exceptionally high due to one-time cash inflows from exiting iBuying business)\n- 2023: $0.219 billion / $219 million (95% decline from 2022)\n- 2024: $0.285 billion / $285 million (+30% YoY improvement)\n\n**FCF Margin Trend:**\n- 2022: Abnormally high (inflated by asset sales from iBuying exit)\n- 2023: Revenue $1.95B, FCF $0.219B = ~11.2% FCF margin\n- 2024: Revenue $2.24B, FCF $0.285B = 12.72% FCF margin\n\n**Operating Cash Flow Details:**\n- 2024: Operating cash flow $428M, Capex (implied): ~$143M\n- FCF: $428M - $143M = $285M\n\n**Trend Analysis:** After the anomalous 2022 (asset sale-driven), Zillow has stabilized with improving FCF margins from ~11% to ~13%, demonstrating better cash conversion as the company focuses on its core marketplace business. The +14.87% revenue growth (2023\u21922024) combined with improving FCF margins indicates operational leverage in the business model.",
+    "sources": [
+      {
+        "url": "https://www.macrotrends.net/stocks/charts/Z/zillow/free-cash-flow",
+        "name": "Zillow Free Cash Flow 2010-2023 - MacroTrends"
+      },
+      {
+        "url": "https://stockanalysis.com/stocks/z/financials/cash-flow-statement/",
+        "name": "Zillow Cash Flow Statement"
+      },
+      {
+        "url": "https://www.monexa.ai/blog/zillow-group-z-cash-flow-repair-vs-rich-valuation-Z-2025-08-27",
+        "name": "Zillow Cash Flow Analysis"
+      }
+    ]
+  },
+  {
+    "question_number": 29,
+    "question": "List the Operating KPIs Spirit Airlines (NYSE: SAVE) tracked in FY 2024. Provide the KPI and FY 2024 Total",
+    "answer": "FINAL ANSWER: Spirit Airlines (SAVE) tracked the following Operating KPIs in FY 2024 (fiscal year ended December 31, 2024):\n\n**Revenue & Demand Metrics:**\n- Total Operating Revenue: $4,913.4 million (down 8.4% YoY)\n- Revenue Passenger Miles (RPM): 43.7 billion (down 3.5% YoY)\n- Total Revenue per ASM (TRASM): 9.27\u00a2 (down 3.7% YoY)\n- Total Revenue per Passenger Flight Segment: $111.21 (down 8.5% from $121.58 in 2023)\n\n**Capacity Metrics:**\n- Available Seat Miles (ASM): 53.0 billion (down 4.8% YoY)\n- Load Factor: 82.4% (up 1.1 percentage points YoY)\n- Average Yield: Contracted 5.1% YoY\n\n**Cost Metrics:**\n- Cost per ASM (CASM): 11.35\u00a2 (up 7.9% YoY)\n- Adjusted Ex-Fuel CASM: 7.97\u00a2 (up 12.9% from 7.06\u00a2)\n\n**Operational Metrics:**\n- Total Departures: 288,180 (down 3.3% from 298,000 in 2023)\n- Fleet Size: 213 Airbus A320 family aircraft (up from 205 at end of 2023)\n- Average Aircraft Age: 5.8 years\n- Route Network: 440+ markets served across 87 airports\n\n**Profitability:**\n- Operating Loss: $1,105.4 million (negative 22.5% operating margin)\n- Net Loss: $1,229.5 million ($11.23 per share)\n\n**Note:** Spirit Airlines filed for Chapter 11 bankruptcy on November 18, 2024, and continues operating as debtor-in-possession.",
+    "sources": [
+      {
+        "url": "https://last10k.com/sec-filings/saveq/0001498710-25-000008.htm",
+        "name": "Spirit Airlines 10-K FY2024"
+      },
+      {
+        "url": "https://www.aerosync.pro/spirit-airlines-operational-financial-analysis/",
+        "name": "Spirit Airlines Operational & Financial Analysis"
+      },
+      {
+        "url": "https://simpleflying.com/spirit-airlines-1-billion-loss-2024-plans-recovery/",
+        "name": "Spirit Airlines FY2024 Results"
+      }
+    ]
+  },
+  {
+    "question_number": 34,
+    "question": "In fiscal 2024, what percentage of Cloudflare's (NYSE: NET) revenue were derived from channel partners?",
+    "answer": "FINAL ANSWER: Based on available Q4 2024 data, channel partners accounted for approximately 22% of Cloudflare's total revenues in Q4 2024 ($101.4 million out of $460 million total quarterly revenue), representing 63.8% year-over-year growth in channel partner revenue.\n\nQuarterly Breakdown Found:\n- Q1 2024: Channel partners contributed 19% of revenue ($70.5M channel / $378.7M total)\n- Q4 2024: Channel partners contributed 22% of revenue ($101.4M channel / $460M total)\n\nChannel Business Growth:\n- Cloudflare's channel and alliance business revenue accelerated 174% over the two-year period ending in 2024\n- The channel program was awarded 5-Stars by CRN in 2024\n\nNote: The search results provided quarterly data but not an explicit full fiscal year 2024 percentage. Based on the Q1 (19%) and Q4 (22%) data points showing an upward trend, the full fiscal year 2024 channel partner revenue percentage would likely be in the 20-21% range. The official full-year breakdown would be available in Cloudflare's Form 10-K or comprehensive annual report.\n\nDirect customers represented the remaining 78-81% of revenues, growing 19.3% YoY in Q4 2024.",
+    "sources": [
+      {
+        "url": "https://www.cloudflare.com/press-releases/2024/cloudflare-channel-and-alliance-business-revenue-accelerates-174-over-two/",
+        "name": "Cloudflare Channel Revenue Growth Announcement"
+      },
+      {
+        "url": "https://www.cloudflare.com/press/press-releases/2025/cloudflare-announces-fourth-quarter-and-fiscal-year-2024-financial-results/",
+        "name": "Cloudflare Q4 & FY2024 Results"
+      },
+      {
+        "url": "https://cloudflare2019ipo.q4web.com/files/doc_financials/2024/q4/Q4-2024-Investor-Presentation.pdf",
+        "name": "Cloudflare Q4 2024 Investor Presentation"
+      }
+    ]
+  },
+  {
+    "question_number": 35,
+    "question": "For the fiscal year ended 12/31/2023, what was Uber's (NYSE: UBER) largest adjustment to EBITDA. Provide the line item and amount in billions of dollars",
+    "answer": "FINAL ANSWER: For the fiscal year ended December 31, 2023, Uber's largest adjustment to EBITDA was:\n\n**Line Item:** Stock-based compensation expense\n**Amount:** $1.935 billion\n\nThis represents the add-back of stock-based compensation expense to calculate Adjusted EBITDA from net income. Stock-based compensation is consistently one of the largest non-cash adjustments in Uber's EBITDA reconciliation.\n\nOther significant adjustments in FY2023 included:\n- Depreciation and amortization\n- Other income (expense), net - which included a $204 million gain on sale of interest in the Careem non-ridesharing business\n- Legal, tax, and regulatory reserve changes and settlements\n- Unrealized gains/losses on equity investments\n\nUber defines Adjusted EBITDA as net income (loss), excluding: income from discontinued operations, non-controlling interests, income taxes, equity method investments, interest expense, other income/expense, depreciation and amortization, stock-based compensation, legal/tax/regulatory reserves, goodwill and asset impairments, acquisition/financing expenses, restructuring charges, and other items not indicative of ongoing operating performance.",
+    "sources": [
+      {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2024/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2023/default.aspx",
+        "name": "Uber Q4 & FY2023 Results"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315124000012/uber-20231231.htm",
+        "name": "Uber 10-K FY2023"
+      },
+      {
+        "url": "https://www.macrotrends.net/stocks/charts/UBER/uber-technologies/stock-based-compensation",
+        "name": "Uber Stock-Based Compensation Data"
+      }
+    ]
   }
 ]
