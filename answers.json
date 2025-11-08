@@ -1,0 +1,363 @@
+[
+  {
+    "question_number": 1,
+    "question": "How has US Steel addressed its planned merger with Nippon Steel and its effect on its business operations?",
+    "answer": "FINAL ANSWER: US Steel addressed its planned merger with Nippon Steel through a comprehensive process spanning from December 2023 to June 2025. The merger was: (1) Announced December 18, 2023 as a $14.9 billion acquisition; (2) Approved by U.S. Steel shareholders on April 12, 2024 with 98%+ support; (3) Initially blocked by President Biden via executive order on January 3, 2025 citing national security concerns; (4) Subsequently approved by President Trump on June 13, 2025; and (5) Completed on June 18, 2025, with U.S. Steel becoming a direct subsidiary of Nippon Steel North America.\n\nBusiness Operations Impact: (1) Investment: Nippon Steel committed approximately $11 billion in investments by 2028; (2) Employment: No layoffs or plant closures guaranteed until at least 2026; (3) Production: Retention of U.S. Steel's name and no reduction of U.S. production capacity; (4) Market Position: The combined entity became the world's third-largest steelmaker; (5) Government Oversight: A National Security Agreement (NSA) was executed on June 13, 2025, including issuance of a Class G 'Golden Share' Preferred Stock to the U.S. Government providing special governance, domestic production, and trade-related oversight rights; (6) Financial Performance: For FY 2024 (pre-merger completion), U.S. Steel reported net earnings of $384 million ($1.57 per diluted share) and adjusted net earnings of $529 million ($2.14 per diluted share).",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Acquisition_of_U.S._Steel_by_Nippon_Steel",
+        "name": "Acquisition of U.S. Steel by Nippon Steel - Wikipedia"
+      },
+      {
+        "url": "https://www.nipponsteel.com/en/ir/library/pdf/20250619_200.pdf",
+        "name": "Nippon Steel - Beginning of a Partnership with U.S. Steel (June 18, 2025)"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1163302/000110465925026421/tm255512d2_ars.pdf",
+        "name": "US Steel 2024 Annual Report (10-K)"
+      },
+      {
+        "url": "https://www.stocktitan.net/sec-filings/X/8-k-united-states-steel-corporation-reports-material-event-82acb82e0a59.html",
+        "name": "U.S. Steel 8-K Filing - Nippon Steel Merger Closing"
+      }
+    ]
+  },
+  {
+    "question_number": 2,
+    "question": "How has Netflix's (NASDAQ: NFLX) Average Revenue Per Paying User Changed from 2019 to 2024?",
+    "answer": "FINAL ANSWER: Netflix's global Average Revenue Per User (ARPU), which Netflix calls ARM (Average Revenue per Membership), changed as follows from 2019 to 2024:\n\n2019: ~$10.82 per month\n2020: ~$10.91 per month (+ $0.09 or +0.8% YoY)\n2021: ~$11.67-11.76 per month (estimated, +7-8% YoY)\n2022: ~$11.67-11.76 per month (estimated, relatively flat)\n2023: $11.64 per month (relatively flat)\n2024: $11.70 per month (+ $0.06 or +0.5% YoY)\n\nOverall Trend: Netflix's ARPU increased approximately 8% from 2019 to 2024 (from $10.82 to $11.70), with the most significant growth occurring between 2020 and 2021 (likely driven by pandemic demand and price increases). From 2021-2024, ARPU remained relatively stable in the $11.64-$11.76 range. \n\nNote: Netflix announced in 2024 that it would stop regularly reporting ARM as a standalone metric, focusing instead on overall revenue growth. Regional ARPU varies significantly, with North America at $17.26/month in Q4 2024 and EMEA at $10.87/month in 2023.",
+    "sources": [
+      {
+        "url": "https://www.statista.com/statistics/1090018/netflix-global-quarterly-arpu-by-region/",
+        "name": "ARPU of Netflix worldwide by region 2024 | Statista"
+      },
+      {
+        "url": "https://www.statista.com/statistics/976588/netflix-monthly-streaming-revenue-per-customer/",
+        "name": "Netflix ARPU worldwide 2023 | Statista"
+      },
+      {
+        "url": "https://evoca.tv/netflix-user-statistics/",
+        "name": "Netflix Users Statistics 2025"
+      },
+      {
+        "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2023/q4/NEW-FINAL-Q4-23-Shareholder-Letter.pdf",
+        "name": "Netflix Q4 2023 Shareholder Letter"
+      }
+    ]
+  },
+  {
+    "question_number": 3,
+    "question": "Did TJX beat or miss its Q4 FY 2025 pre-tax margin guidance? Express result as BPS difference",
+    "answer": "FINAL ANSWER: TJX BEAT its Q4 FY 2025 pre-tax margin guidance by 70 basis points (bps). The company reported a pretax profit margin of 11.6%, which was above the high-end of its plan by 0.7 percentage points (70 bps). The beat was primarily driven by lower than expected inventory shrink expense and expense leverage on above-plan sales, partially offset by higher incentive compensation accruals.",
+    "sources": [
+      {
+        "url": "https://investor.tjx.com/news-releases/news-release-details/tjx-companies-inc-reports-q4-and-fy25-results-q4-comp-store",
+        "name": "TJX Q4 and FY25 Results Press Release (Feb 26, 2025)"
+      }
+    ]
+  },
+  {
+    "question_number": 4,
+    "question": "How large was the range (in % terms) for AMD's revenue guidance for Q2 2024, Q3 2024, Q4 2024, and Q1 2025?",
+    "answer": "FINAL ANSWER: AMD's revenue guidance ranges in percentage terms of midpoint for each quarter:\n\nQ2 2024: $5.4 billion (low) to $6.0 billion (high), 10.5% of midpoint\n  - Midpoint: $5.7 billion\n  - Range: $600 million (\u00b1$300 million)\n  - % of midpoint: 10.5%\n\nQ3 2024: $6.4 billion (low) to $7.0 billion (high), 9.0% of midpoint\n  - Midpoint: $6.7 billion\n  - Range: $600 million (\u00b1$300 million)\n  - % of midpoint: 9.0%\n\nQ4 2024: $7.2 billion (low) to $7.8 billion (high), 8.0% of midpoint\n  - Midpoint: $7.5 billion\n  - Range: $600 million (\u00b1$300 million)\n  - % of midpoint: 8.0%\n\nQ1 2025: $6.8 billion (low) to $7.4 billion (high), 8.5% of midpoint\n  - Midpoint: $7.1 billion\n  - Range: $600 million (\u00b1$300 million)\n  - % of midpoint: 8.5%",
+    "sources": [
+      {
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1209/amd-reports-second-quarter-2024-financial-results",
+        "name": "AMD Q2 2024 Financial Results"
+      },
+      {
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1224/amd-reports-third-quarter-2024-financial-results",
+        "name": "AMD Q3 2024 Financial Results"
+      },
+      {
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1236/amd-reports-fourth-quarter-and-full-year-2024-financial-results",
+        "name": "AMD Q4 2024 Financial Results"
+      }
+    ]
+  },
+  {
+    "question_number": 5,
+    "question": "In 2024, who was Nominated to Serve on BBSI's (NASDAQ: BBSI) Board of Directors?",
+    "answer": "FINAL ANSWER: For BBSI's 2024 Annual Meeting held on June 3, 2024, eight directors were nominated to serve until the 2025 annual meeting of stockholders:\n\n1. Thomas J. Carley\n2. Joseph S. Clabby\n3. Thomas B. Cusick\n4. Gary E. Kramer\n5. Anthony Meeker\n6. Carla A. Moradi\n7. Alexandra Morehouse\n8. Vincent P. Price\n\nAll eight nominees were recommended by the Board of Directors for election. Additionally, in December 2024, BBSI established a Vice Chairman role and appointed current board member Joseph S. Clabby to this new position.",
+    "sources": [
+      {
+        "url": "https://ir.bbsi.com/sec-filings/all-sec-filings/content/0000950170-24-046428/0000950170-24-046428.pdf",
+        "name": "BBSI 2024 Proxy Statement"
+      },
+      {
+        "url": "https://ir.bbsi.com/news-events/press-releases/detail/380/bbsi-establishes-vice-chairman-role-appoints-current-board",
+        "name": "BBSI Vice Chairman Appointment Press Release (Dec 2024)"
+      }
+    ]
+  },
+  {
+    "question_number": 6,
+    "question": "Of AMZN, META, or GOOG, who plans to spend the most in capex in 2025?",
+    "answer": "FINAL ANSWER: Amazon (AMZN) plans to spend the most in capex in 2025 with approximately $125 billion in capital expenditures.\n\nComparison of 2025 capex plans:\n1. Amazon (AMZN): ~$125 billion (highest)\n2. Google/Alphabet (GOOG): $85 billion (revised up from $75 billion)\n3. Meta (META): $70-72 billion (revised up from $66-72 billion)\n\nAmazon's $125 billion represents a significant increase from 2024's approximately $83 billion. This massive investment is primarily driven by AI infrastructure, data centers, and computing capacity to meet growing demand for cloud and AI services.",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2025/02/06/amazon-expects-to-spend-100-billion-on-capital-expenditures-in-2025.html",
+        "name": "Amazon $100 billion capex 2025 - CNBC"
+      },
+      {
+        "url": "https://sherwood.news/business/amazon-plans-100-billion-spend-on-ai-in-2025/",
+        "name": "Amazon capex spending 2025 - Sherwood News"
+      },
+      {
+        "url": "https://www.cnbc.com/2025/02/08/tech-megacaps-to-spend-more-than-300-billion-in-2025-to-win-in-ai.html",
+        "name": "Tech megacaps $300 billion spending 2025 - CNBC"
+      }
+    ]
+  },
+  {
+    "question_number": 7,
+    "question": "Who is the current CFO of Airbnb (NASDAQ: ABNB)?",
+    "answer": "FINAL ANSWER: Ellie Mertz is the current Chief Financial Officer (CFO) of Airbnb as of 2025. She was promoted to CFO effective March 1, 2024, replacing Dave Stephenson who transitioned to a newly created Chief Business Officer role. Mertz is an 11-year veteran of Airbnb and oversees the company's global finance team, including financial planning and analysis, accounting, tax, treasury, and investor relations. In June 2025, Mertz was also appointed to Netflix's Board of Directors, where she previously worked from 2006 to 2013 in various finance roles.",
+    "sources": [
+      {
+        "url": "https://news.airbnb.com/airbnb-executive-team-update/",
+        "name": "Airbnb Executive Team Update (Dec 2023)"
+      },
+      {
+        "url": "https://investors.airbnb.com/governance/executive-management/executive-person-details/default.aspx?ItemId=aa922706-6706-4221-9858-de6bc268dce2",
+        "name": "Airbnb Investor Relations - CFO Profile"
+      },
+      {
+        "url": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2025/Ellie-Mertz-Appointed-to-Netflix-Board-of-Directors-2025-bYlhtQ6XSS/default.aspx",
+        "name": "Ellie Mertz Appointed to Netflix Board (June 2025)"
+      }
+    ]
+  },
+  {
+    "question_number": 8,
+    "question": "What was the total consideration cost TKO paid to acquired Endeavor assets measured at transaction close?",
+    "answer": "FINAL ANSWER: At transaction close on February 28, 2025, TKO paid total consideration of approximately $3.3 billion to acquire Endeavor assets (Professional Bull Riders, On Location, and IMG). This consisted of: (1) $3.25 billion in all-equity consideration based on the 25-trading-day volume-weighted average price of TKO's Class A common stock ending October 23, 2024; plus (2) $50 million of additional consideration related to customary purchase price adjustments settled at closing in equity. In exchange, Endeavor received approximately 26.54 million common units of TKO OpCo and an equal number of shares of TKO Class B common stock, giving Endeavor approximately 61% of TKO's voting interests post-transaction.",
+    "sources": [
+      {
+        "url": "https://investor.tkogrp.com/news/news-details/2024/TKO-Announces-Approval-of-Capital-Return-Program-Also-Announces-Strategic-Acquisition-of-Sports-Assets-From-Endeavor/default.aspx",
+        "name": "TKO Acquisition Press Release (Oct 23, 2024)"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1973266/000119312525040879/d879819d8k.htm",
+        "name": "TKO 8-K Filing - Transaction Close"
+      },
+      {
+        "url": "https://www.upi.com/Top_News/US/2024/10/24/TKO-Endeavor-acquisition-stock-buyback/5761729795207/",
+        "name": "TKO Acquisition News - UPI"
+      }
+    ]
+  },
+  {
+    "question_number": 9,
+    "question": "How many basis points did MU beat or miss its Q3 2024 GAAP gross margin guidance?",
+    "answer": "FINAL ANSWER: Based on available information, Micron (MU) BEAT its Q3 Fiscal 2024 gross margin guidance, delivering results \"above the high end of guidance ranges.\" The actual GAAP gross margin for Q3 FY2024 was approximately 28%, up over 8 percentage points sequentially from Q2's 18.5%. However, the specific guidance range provided during Q2 2024 earnings was not available in the search results to calculate the exact basis point beat. The strong performance was driven by higher pricing and improved product mix, particularly in AI-related products like HBM (High Bandwidth Memory). NOTE: Micron typically provides non-GAAP guidance, so the GAAP gross margin beat vs. guidance metric may not be regularly disclosed.",
+    "sources": [
+      {
+        "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-third-quarter-fiscal-2024",
+        "name": "Micron Q3 FY2024 Results"
+      },
+      {
+        "url": "https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564",
+        "name": "Micron Q3 FY2024 Earnings Call Prepared Remarks"
+      },
+      {
+        "url": "https://investors.micron.com/static-files/a531c7f0-fca2-48f3-8f24-79c945aaa2d2",
+        "name": "Micron Q3 FY2024 Financial Results"
+      }
+    ]
+  },
+  {
+    "question_number": 10,
+    "question": "Calculate the 3 year revenue CAGR for Palantir Technologies from 2021 to 2024",
+    "answer": "FINAL ANSWER: Palantir Technologies' 3-year revenue CAGR from 2021 to 2024 is 22.93%.\n\nCalculation:\n- 2021 Revenue: $1.54 billion\n- 2024 Revenue: $2.866 billion\n- Formula: CAGR = [(Ending Value/Beginning Value)^(1/Years)] - 1\n- CAGR = [(2.866/1.54)^(1/3)] - 1 = 1.2293 - 1 = 0.2293 = 22.93%\n\nYear-by-Year Breakdown:\n- 2021: $1.540 billion\n- 2022: $1.906 billion (+23.6% YoY)\n- 2023: $2.225 billion (+16.7% YoY)\n- 2024: $2.866 billion (+28.8% YoY)\n\nNote: Some sources cite Palantir's 3-year revenue CAGR as 28.47%, which may use a different time period or calculation methodology. The above calculation uses the standard CAGR formula from 2021 to 2024.",
+    "sources": [
+      {
+        "url": "https://www.macrotrends.net/stocks/charts/PLTR/palantir-technologies/revenue",
+        "name": "Palantir Revenue 2019-2025 - MacroTrends"
+      },
+      {
+        "url": "https://www.financecharts.com/stocks/PLTR/income-statement/revenue-cagr",
+        "name": "Palantir Revenue CAGR - FinanceCharts"
+      },
+      {
+        "url": "https://stockanalysis.com/stocks/pltr/revenue/",
+        "name": "Palantir Revenue 2018-2025 - Stock Analysis"
+      },
+      {
+        "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/pltr/revenue",
+        "name": "Palantir Annual Revenue - WallStreetZen"
+      }
+    ]
+  },
+  {
+    "question_number": 11,
+    "question": "How many common stock shares are outstanding for ABNB? Format \"Class X: X shares\" add line break.",
+    "answer": "FINAL ANSWER: As of January 31, 2025, Airbnb's (ABNB) common stock shares outstanding by class:\n\nClass A: 432,876,657 shares\nClass B: 188,462,942 shares\nClass C: 0 shares\nClass H: 9,200,000 shares\n\nTotal: 630,539,599 shares\n\nVoting Rights:\n- Class A: 1 vote per share\n- Class B: 20 votes per share (convertible to Class A at holder's option)\n- Class C: No voting rights\n- Class H: No voting rights",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
+        "name": "Airbnb 10-K Annual Report (Dec 31, 2024)"
+      },
+      {
+        "url": "https://www.macrotrends.net/stocks/charts/ABNB/airbnb/shares-outstanding",
+        "name": "Airbnb Shares Outstanding 2018-2025 - MacroTrends"
+      },
+      {
+        "url": "https://companiesmarketcap.com/airbnb/shares-outstanding/",
+        "name": "Airbnb Shares Outstanding Data"
+      }
+    ]
+  },
+  {
+    "question_number": 36,
+    "question": "What price was RDFN acquired at? (include price per share, equity value and enterprise value)",
+    "answer": "FINAL ANSWER: Redfin (RDFN) was acquired by Rocket Companies on March 10, 2025 at the following valuation:\n\nPrice per share: $12.50\nEquity value: $1.75 billion\nEnterprise value: ~$2.58 billion (calculated as: $1.75B equity value + $1.02B debt - $0.19B cash)\n\nAdditional Details:\n- Exchange ratio: 0.7926 shares of Rocket Companies Class A common stock per Redfin share\n- Premium: 63% over the 30-day VWAP ending March 7, 2025\n- Transaction structure: All-stock deal\n- Post-transaction ownership: Rocket shareholders 95%, Redfin shareholders 5%\n- Transaction completed: July 2, 2025 (RDFN became defunct)\n- Timing: Closed in Q2/Q3 2025 as expected",
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/rocket-companies-to-acquire-redfin-accelerating-purchase-mortgage-strategy-302396502.html",
+        "name": "Rocket Companies Redfin Acquisition Announcement"
+      },
+      {
+        "url": "https://www.fool.com/investing/2025/03/10/redfin-soars-more-than-75-on-acquisition-news-here/",
+        "name": "Redfin Acquisition Analysis - Motley Fool"
+      },
+      {
+        "url": "https://www.credaily.com/briefs/rocket-companies-to-buy-redfin-for-1-75b-in-all-stock-deal/",
+        "name": "Rocket-Redfin Deal Coverage - CRE Daily"
+      }
+    ]
+  },
+  {
+    "question_number": 17,
+    "question": "How has Airbnb's Annual Take Rate (Revenue/Gross Booking Value) Trended from FY 2022 - 2024?",
+    "answer": "FINAL ANSWER: Airbnb's Annual Take Rate (Revenue/GBV) has shown a gradual upward trend from FY 2022 to FY 2024:\n\nFY 2022: 13.3% take rate\n- Revenue: $8.399 billion\n- Gross Booking Value: $63.2 billion\n- Take Rate: 13.3%\n\nFY 2023: 13.5% take rate\n- Revenue: $9.917 billion  \n- Gross Booking Value: $73.25 billion\n- Take Rate: 13.5%\n\nFY 2024: 13.6% take rate\n- Revenue: $11.102 billion\n- Gross Booking Value: $82.78 billion\n- Take Rate: 13.6%\n\nTrend: The take rate has increased steadily, rising 0.2 percentage points from 2022 to 2023, and another 0.1 percentage points from 2023 to 2024, for a total increase of 0.3 percentage points over the period. This reflects Airbnb's evolving fee structures and pricing strategies to optimize revenue while balancing host and guest satisfaction.",
+    "sources": [
+      {
+        "url": "https://fourweekmba.com/airbnb-take-rate/",
+        "name": "Airbnb Take Rate 2017-2023 - FourWeekMBA"
+      },
+      {
+        "url": "https://www.macrotrends.net/stocks/charts/ABNB/airbnb/revenue",
+        "name": "Airbnb Revenue Data - MacroTrends"
+      },
+      {
+        "url": "https://fourweekmba.com/airbnb-gross-booking-value/",
+        "name": "Airbnb Gross Booking Value - FourWeekMBA"
+      }
+    ]
+  },
+  {
+    "question_number": 22,
+    "question": "What was ABNB's gross booking per room night (gross booking value divided by number of nights and experiences booked) in $ over the last 3 years (FY 2022-2024)?",
+    "answer": "FINAL ANSWER: Airbnb's gross booking per room night (Gross Booking Value / Nights and Experiences Booked) over the last 3 years:\n\nFY 2022: $160.41\n- Gross Booking Value: $63.2 billion\n- Nights and Experiences Booked: 394 million\n- Per Night: $160.41 ($63.2B / 394M)\n\nFY 2023: $163.51\n- Gross Booking Value: $73.25 billion\n- Nights and Experiences Booked: 448 million\n- Per Night: $163.51 ($73.25B / 448M)\n\nFY 2024: $156.61 (preliminary)\n- Gross Booking Value: $82.78 billion\n- Nights and Experiences Booked: ~528.4 million (estimated based on Q1 132.6M)\n- Per Night: ~$156.61\n\nNote: The 2024 figure is an estimate based on available quarterly data. Average global length of stay decreased from 4.1 nights in 2022 to 3.9 nights in 2023, contributing to booking value trends.",
+    "sources": [
+      {
+        "url": "https://www.statista.com/statistics/1193536/airbnb-gross-booking-value-worldwide/",
+        "name": "Airbnb GBV Statistics - Statista"
+      },
+      {
+        "url": "https://www.statista.com/statistics/1193532/airbnb-nights-experiences-booked-worldwide/",
+        "name": "Airbnb Nights Booked Statistics - Statista"
+      },
+      {
+        "url": "https://backlinko.com/airbnb-stats",
+        "name": "Airbnb Revenue and Booking Statistics"
+      }
+    ]
+  },
+  {
+    "question_number": 40,
+    "question": "What adjustments does Airbnb (NASDAQ: ABNB) make to its Net Income to Derive Adjusted EBITDA?",
+    "answer": "FINAL ANSWER: Airbnb makes the following adjustments to Net Income to derive Adjusted EBITDA (based on FY 2024 reconciliation):\n\n1. **Provision for income taxes** - Add back income tax expenses\n2. **Interest income** - Subtract back interest income (negative adjustment)\n3. **Other (income) expense, net** - Add back other non-operating expenses, subtract other income\n4. **Depreciation and amortization** - Add back D&A expenses\n5. **Stock-based compensation expense** - Add back all stock-based compensation (largest adjustment, $1.407B in FY2024)\n6. **Acquisition-related impacts** - Add back acquisition-related expenses\n7. **Lodging taxes, host withholding taxes, and transactional taxes, net** - Add back net tax impacts\n\nFor Full Year 2024:\n- Net Income: $2.648 billion\n- Total Adjustments: +$1.352 billion\n- Adjusted EBITDA: $4.0 billion (36% margin)\n\nKey Note: Stock-based compensation ($295M-$382M per quarter in 2024) was consistently the largest add-back adjustment, while interest income ($183M-$226M per quarter) was the largest negative adjustment.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
+        "name": "Airbnb 10-K FY2024"
+      },
+      {
+        "url": "https://s26.q4cdn.com/656283129/files/doc_financials/2024/q4/Airbnb_Q4-2024-Shareholder-Letter_Final.pdf",
+        "name": "Airbnb Q4 2024 Shareholder Letter"
+      },
+      {
+        "url": "https://news.airbnb.com/airbnb-q4-2024-financial-results/",
+        "name": "Airbnb Q4 2024 Financial Results"
+      }
+    ]
+  },
+  {
+    "question_number": 44,
+    "question": "In 2024, what was the Average Nights per Booking for Airbnb (NASDAQ: ABNB) in the Asia Pacific region?",
+    "answer": "FINAL ANSWER: In 2024, the average nights per booking for Airbnb in the Asia Pacific region was 3.33 nights, which was the shortest average stay among all global regions.\n\nRegional Comparison for 2024:\n- North America: 4.14 nights (longest)\n- Global Average: 3.7 nights (down from 3.8 in 2023)\n- Asia Pacific: 3.33 nights (shortest)\n\nAdditional Context: The Asia Pacific region had the lowest number of total nights and experiences booked on Airbnb in 2024 with 61 million bookings, compared to 201 million in the EMEA region which had the highest volume.",
+    "sources": [
+      {
+        "url": "https://www.statista.com/statistics/1193597/airbnb-average-nights-per-booking-by-region-worldwide/",
+        "name": "Airbnb Average Nights per Booking by Region 2024 - Statista"
+      },
+      {
+        "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/abnb/statistics",
+        "name": "Airbnb Statistics - WallStreetZen"
+      },
+      {
+        "url": "https://www.statista.com/statistics/1193543/airbnb-nights-experiences-by-region-worldwide/",
+        "name": "Airbnb Nights by Region - Statista"
+      }
+    ]
+  },
+  {
+    "question_number": 45,
+    "question": "In 2024, what was Airbnb's (NASDAQ: ABNB) adjustment for Stock-based Compensation Expense?",
+    "answer": "FINAL ANSWER: In 2024, Airbnb's total stock-based compensation expense adjustment (added back to Net Income to calculate Adjusted EBITDA) was $1.407 billion.\n\nQuarterly Breakdown for FY 2024:\n- Q1 2024: $295 million\n- Q2 2024: $382 million\n- Q3 2024: $362 million\n- Q4 2024: $368 million\n- Total FY 2024: $1.407 billion\n\nThis was consistently the largest adjustment in Airbnb's Adjusted EBITDA reconciliation throughout 2024, representing a significant portion of the total $1.352 billion in adjustments made to the $2.648 billion net income to arrive at the $4.0 billion Adjusted EBITDA. The stock-based compensation expense increased in Q1 2025 compared to Q1 2024, primarily driven by increased headcount.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
+        "name": "Airbnb 10-K FY2024 SEC Filing"
+      },
+      {
+        "url": "https://news.airbnb.com/airbnb-q4-2024-financial-results/",
+        "name": "Airbnb Q4 2024 Financial Results"
+      },
+      {
+        "url": "https://news.airbnb.com/airbnb-q1-2025-financial-results/",
+        "name": "Airbnb Q1 2025 Financial Results"
+      }
+    ]
+  },
+  {
+    "question_number": 18,
+    "question": "Does Workday (NASDAQ: WDAY) report a gross or net retention metric in its annual or quarterly reporting? If so, provide the definition",
+    "answer": "FINAL ANSWER: Yes, Workday (WDAY) reports BOTH gross retention and net retention metrics.\n\nGross Revenue Retention (GRR) Definition:\nWorkday's Gross Revenue Retention Rate measures the percentage of recurring revenue retained from existing customers. It is calculated by taking total Annual Recurring Revenue (ARR) of customers as of the corresponding prior period-end and comparing that to ARR from that same set of customers as of the current period-end. The metric takes into account recurring revenues lost to product or customer churn but does NOT account for additional revenue earned from add-ons or net expansions (which include volume and price adjustments).\n\nPer Workday's Financial Analyst Day (September 2022): \"Calculated by measuring the annual recurring revenue of our customers for the year-earlier period that we have maintained in the current period, without giving credit for additional upsells and/or seat related changes. The metric captures only customer and product churn.\"\n\nARR Calculation: ARR represents the annualized value of active subscription contracts as of the end of each period. Each subscription contract is annualized by dividing the total contract value by the number of days in the contract term and then multiplying by 365.\n\nReported Metrics:\n- Workday's Gross Revenue Retention: ~95% (industry-leading)\n- Workday's Net Dollar Retention (NDR): 100%\n\nNote: Public reporting of gross retention is uncommon - an Ordway study found only 9 of 140 SaaS companies disclosed gross retention versus over 70 that reported net retention.",
+    "sources": [
+      {
+        "url": "https://www.workday.com/content/dam/web/en-us/documents/investor/workday-fiscal-2026-second-quarter-investor-presentation.pdf",
+        "name": "Workday Q2 FY26 Investor Presentation"
+      },
+      {
+        "url": "https://ordwaylabs.com/blog/saas-gross-revenue-retention-calculation-examples/",
+        "name": "SaaS Gross Revenue Retention Examples"
+      },
+      {
+        "url": "https://blog.workday.com/en-us/how-to-calculate-net-revenue-retention.html",
+        "name": "How to Calculate Net Revenue Retention - Workday"
+      }
+    ]
+  },
+  {
+    "question_number": 41,
+    "question": "What was FND same-store sales growth in Q4 2024?",
+    "answer": "FINAL ANSWER: Floor & Decor (FND) same-store sales (comparable store sales) declined 0.8% in Q4 2024.\n\nKey Q4 2024 Metrics:\n- Comparable Store Sales: -0.8% (decline)\n- Net Sales: $1,107.4 million (+5.7% YoY from $1,048.1M)\n- Diluted EPS: $0.44 (+29.4% YoY from $0.34)\n- New Store Openings: 10 warehouse stores in Q4\n- Total Stores: 251 warehouse stores and 5 design studios\n\nContext: Despite the comp sales decline, the Q4 performance was better than expected given macroeconomic challenges. The full-year FY2024 comparable store sales declined 7.1%, indicating Q4's -0.8% decline was a significant improvement from the full-year trend.",
+    "sources": [
+      {
+        "url": "https://ir.flooranddecor.com/news-events/press-releases/detail/257/floor-decor-holdings-inc-announces-fourth-quarter-and",
+        "name": "Floor & Decor Q4 2024 Earnings Press Release"
+      },
+      {
+        "url": "https://www.floordaily.net/flooring-news/floor-decor-sales-up-57-in-q4-earnings-up-281",
+        "name": "Floor & Decor Q4 2024 Results - Floor Daily"
+      },
+      {
+        "url": "https://stockstory.org/us/stocks/nyse/fnd/news/earnings/floor-and-decor-nysefnd-posts-better-than-expected-sales-in-q4-stock-jumps-108percent",
+        "name": "Floor & Decor Q4 2024 Analysis - Stock Story"
+      }
+    ]
+  }
+]
