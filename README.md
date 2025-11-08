@@ -1,6 +1,6 @@
 # Finance Agent Evaluation
 
-This repository contains a set of 50 finance-related questions for evaluation, along with tools to help answer them.
+This repository contains a set of 50 finance-related questions for evaluation.
 
 ## Task
 
@@ -29,29 +29,41 @@ The evaluation questions are located in `data/questions.csv`. Each row contains 
 
 ## Available Tools
 
-You have access to the following Python tools in `tools.py`:
+### Built-in Claude Code Web Tools
+Use these tools that are already available to you:
+- **WebSearch** - Search the web for information (no API key needed)
+- **WebFetch** - Fetch and parse HTML content from URLs (no API key needed)
 
-### 1. `google_web_search(query: str) -> dict`
-Searches the web using Google via SerpAPI.
-- **Parameters**: `query` - The search query string
-- **Returns**: Dictionary with search results
+### Custom Tool: SEC EDGAR Search
 
-### 2. `edgar_search(query: str) -> dict`
-Searches SEC EDGAR database for company filings.
-- **Parameters**: `query` - Search query (company name, ticker, or keywords)
-- **Returns**: Dictionary with SEC filing results
+For searching SEC filings, use the `edgar_search` function from `tools.py`:
 
-### 3. `parse_html_page(url: str) -> str`
-Fetches and parses HTML content from a URL, extracting clean text.
-- **Parameters**: `url` - The URL to fetch and parse
-- **Returns**: Cleaned text content from the page
+```python
+from tools import edgar_search
 
-### 4. `retrieve_information(query: str, data_store: list) -> str`
-Uses LLM to retrieve relevant information from previously collected data.
-- **Parameters**:
-  - `query` - What information to retrieve
-  - `data_store` - List of data sources to search through
-- **Returns**: Retrieved information as text
+# Example usage
+results = await edgar_search(
+    query="revenue guidance",
+    form_types=["10-K", "10-Q"],  # Optional: filter by form type
+    ciks=["0000320193"],          # Optional: filter by company CIK
+    start_date="2024-01-01",      # Optional: start date (yyyy-mm-dd)
+    end_date="2024-12-31",        # Optional: end date (yyyy-mm-dd)
+    top_n_results=10              # Optional: max results to return
+)
+```
+
+**Parameters:**
+- `query` (required): Search keywords or phrase
+- `form_types` (optional): List of SEC form types like `['10-K', '10-Q', '8-K']`
+- `ciks` (optional): List of company CIK numbers
+- `start_date` (optional): Start date in `yyyy-mm-dd` format
+- `end_date` (optional): End date in `yyyy-mm-dd` format
+- `page` (optional): Page number for pagination (default: 1)
+- `top_n_results` (optional): Number of results to return (default: 10)
+
+**Returns:** List of dictionaries containing filing metadata (title, URL, filing date, form type, etc.)
+
+**Note:** The SEC API key is already configured in the code.
 
 ## Setup
 
@@ -60,40 +72,15 @@ Uses LLM to retrieve relevant information from previously collected data.
 pip install -r requirements.txt
 ```
 
-2. Create a `.env` file with your API keys:
-```
-# LLM API Keys (only set the ones you plan to use)
-OPENAI_API_KEY=your_openai_key
-ANTHROPIC_API_KEY=your_anthropic_key
-GOOGLE_API_KEY=your_google_key
+2. No environment variables or API keys needed - everything is pre-configured!
 
-# Tool API Keys (required)
-SERP_API_KEY=your_serpapi_key
-SEC_API_KEY=your_sec_api_key
-```
+## Example Workflow
 
-Get API keys:
-- SerpAPI: https://serpapi.com/
-- SEC API: https://sec-api.io/
-
-## Usage
-
-The tools are implemented in `tools.py`. You can import and use them in your own code:
-
-```python
-from tools import google_web_search, edgar_search, parse_html_page, retrieve_information
-
-# Search the web
-results = google_web_search("Apple revenue 2024")
-
-# Search SEC filings
-filings = edgar_search("AAPL 10-K")
-
-# Parse a webpage
-content = parse_html_page("https://example.com")
-
-# Retrieve information from collected data
-answer = retrieve_information("What was the revenue?", data_store)
-```
-
-The `llm.py` module provides LLM client functionality if you need to call language models directly.
+1. Read questions from `data/questions.csv`
+2. For each question:
+   - Use **WebSearch** to find general information
+   - Use **edgar_search** to search SEC filings
+   - Use **WebFetch** to fetch and parse HTML pages
+   - Extract the answer from the collected data
+   - Format as `FINAL ANSWER: ...` with sources
+3. Save all answers to a file (CSV/JSON)

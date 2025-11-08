@@ -1,14 +1,6 @@
-# LLM clients
-openai==1.61.0
-anthropic==0.47.0
-
-# Web tools
-requests==2.32.3
-beautifulsoup4==4.12.3
-google-search-results==2.4.2  # for serpapi
+# SEC API access
 sec-api==1.0.29
 
-
-# Other
-backoff==2.2.1
+# HTTP client and retry logic
 aiohttp==3.11.18
+backoff==2.2.1
