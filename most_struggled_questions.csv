@@ -1,0 +1,20 @@
+Rank,Question_Number,Final_Score,Question_Type,Difficulty,Expert_Time_Mins,Status,Correctness_Score,Has_Contradictions,Sources_Quality,Criteria_Met,Total_Criteria,Comments
+1,15,0,Numerical Reasoning,Easy,5,Skipped,0.0,No,Poor,0,3,Question was skipped - no answer provided
+2,19,0,Numerical Reasoning,Easy,5,Skipped,0.0,No,Poor,0,1,Question was skipped - no answer provided
+3,21,0,Qualitative Retrieval,Easy,5,Skipped,0.0,No,Poor,0,2,Question was skipped - no answer provided
+4,28,0,Quantitative Retrieval,Medium,10,Answered,0,Yes,Good,0,1,Answer provided but has contradictions. Met 0/1 rubric criteria. Sources: Good.
+5,30,0,Financial Modeling,Hard,30,Answered,0,Yes,Good,0,1,Answer provided but has contradictions. Met 0/1 rubric criteria. Sources: Good.
+6,42,0,Market Analysis,Hard,30,Answered,0,Yes,Good,0,5,Answer provided but has contradictions. Met 0/5 rubric criteria. Sources: Good.
+7,50,0,Beat or Miss,Hard,20,Skipped,0.0,No,Poor,0,5,Question was skipped - no answer provided
+8,46,33.3,Market Analysis,Hard,30,Answered,33.3,Yes,Acceptable,2,6,Answer provided but has contradictions. Met 2/6 rubric criteria. Sources: Acceptable.
+9,33,50.0,Adjustments,Medium,15,Answered,50.0,No,Good,1,2,Answer provided. Met 1/2 rubric criteria. Sources: Good.
+10,48,57.1,Beat or Miss,Hard,30,Answered,57.1,Yes,Good,4,7,Answer provided but has contradictions. Met 4/7 rubric criteria. Sources: Good.
+11,20,66.7,Numerical Reasoning,Easy,5,Answered,66.7,No,Good,2,3,Answer provided. Met 2/3 rubric criteria. Sources: Good.
+12,29,68.8,Qualitative Retrieval,Medium,10,Answered,68.8,Yes,Acceptable,11,16,Answer provided but has contradictions. Met 11/16 rubric criteria. Sources: Acceptable.
+13,1,75.0,Market Analysis,Hard,30,Answered,75.0,No,Good,3,4,Answer provided. Met 3/4 rubric criteria. Sources: Good.
+14,25,75.0,Qualitative Retrieval,Hard,20,Answered,75.0,No,Good,6,8,Answer provided. Met 6/8 rubric criteria. Sources: Good.
+15,49,75.0,Beat or Miss,Hard,25,Answered,75.0,Yes,Acceptable,3,4,Answer provided but has contradictions. Met 3/4 rubric criteria. Sources: Acceptable.
+16,12,80.0,Financial Modeling,Very Hard,60,Answered,80.0,Yes,Good,8,10,Answer provided but has contradictions. Met 8/10 rubric criteria. Sources: Good.
+17,16,81.8,Complex Retrieval,Very Hard,35,Answered,81.8,No,Good,9,11,Answer provided. Met 9/11 rubric criteria. Sources: Good.
+18,39,83.3,Qualitative Retrieval,Easy,5,Answered,83.3,No,Good,5,6,Answer provided. Met 5/6 rubric criteria. Sources: Good.
+19,40,85.7,Adjustments,Medium,10,Answered,85.7,No,Good,6,7,Answer provided. Met 6/7 rubric criteria. Sources: Good.
