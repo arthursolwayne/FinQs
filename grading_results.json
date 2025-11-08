@@ -1,0 +1,2156 @@
+{
+  "questions": [
+    {
+      "question_num": 1,
+      "question_type": "Market Analysis",
+      "difficulty": "Hard",
+      "expert_time_mins": 30,
+      "status": "Answered",
+      "correctness_score": 75.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Nippon Steel made an unsolicited offer to acquire U.S. Steel for approximately $7.3 billion",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "U.S. Steel rejected the offer citing concerns about strategic fit and undervaluation",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "The merger was blocked by executive order",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "The proposed merger between Nippon Steel and U.S. Steel occured late in 2023.",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "The proposed merger between Nippon Steel and U.S. Steel occured late in 2023 when Nippon Steel made an unsolicited offer to acquire U.S. Steel for approximately $7.3 billion. U.S. Steel rejected the offer, citing concerns about the strategic fit and the undervaluation of the company. Ultimately, the merger was blocked by executive order.",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 75.0,
+      "comments": "Answer provided. Met 3/4 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 2,
+      "question_type": "Trends",
+      "difficulty": "Medium",
+      "expert_time_mins": 15,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Acceptable",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "2019: 10.82",
+          "met": true,
+          "evidence": "Found required numbers: 2019, 10.82"
+        },
+        {
+          "type": "correctness",
+          "criteria": "2020: 10.91",
+          "met": true,
+          "evidence": "Found required numbers: 2020, 10.91"
+        },
+        {
+          "type": "correctness",
+          "criteria": "2021: 11.67",
+          "met": true,
+          "evidence": "Found required numbers: 2021, 11.67"
+        },
+        {
+          "type": "correctness",
+          "criteria": "2022: 11.76",
+          "met": true,
+          "evidence": "Found required numbers: 2022, 11.76"
+        },
+        {
+          "type": "correctness",
+          "criteria": "2023: 11.64",
+          "met": true,
+          "evidence": "Found required numbers: 2023, 11.64"
+        },
+        {
+          "type": "correctness",
+          "criteria": "2024: 11.70",
+          "met": true,
+          "evidence": "Found required numbers: 2024, 11.70"
+        },
+        {
+          "type": "correctness",
+          "criteria": "From 2019-2022, average revenue per paying membership increased approximately 2.8% annually",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "From 2022 to 2024, the average revenue per paying membership has been roughly flat",
+          "met": true,
+          "evidence": "Found required numbers: 2022, 2024,"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Flat revenue from 2022 to 2024 likely due to introduction of lower priced ad plans",
+          "met": true,
+          "evidence": "Found required numbers: 2022, 2024"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "2019: 10.82\n2020: 10.91\n2021: 11.67\n2022: 11.76\n2023: 11.64\n2024: 11.70\n\nFrom 2019-2022, average revenue per paying membership increased approximately 2.8% annually. From 2022 to 2024, the average revenue per paying membership has been roughly flat, likely due to the introduction of lower priced ad plans",
+          "met": true,
+          "evidence": "Found 12/13 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 9/9 rubric criteria. Sources: Acceptable."
+    },
+    {
+      "question_num": 3,
+      "question_type": "Beat or Miss",
+      "difficulty": "Medium",
+      "expert_time_mins": 10,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Acceptable",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "80bps beat from low end",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "70bps beat from high end",
+          "met": true,
+          "evidence": "Found required numbers: 70"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "80bps beat from low end and 70bps beat from high end",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 2/2 rubric criteria. Sources: Acceptable."
+    },
+    {
+      "question_num": 4,
+      "question_type": "Complex Retrieval",
+      "difficulty": "Hard",
+      "expert_time_mins": 20,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Q1 2025: $6.8 billion to $7.4 billion, 8.5% of midpoint",
+          "met": true,
+          "evidence": "Found required numbers: 1, 2025, 6.8, 7.4, ,, 8.5%"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Q4 2024: $7.2 billion to $7.8 billion, 8.0% of midpoint",
+          "met": true,
+          "evidence": "Found required numbers: 4, 2024, 7.2, 7.8, ,, 8.0%"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Q3 2024: $6.4 billion to $7.0 billion, 9.0% of midpoint",
+          "met": true,
+          "evidence": "Found required numbers: 3, 2024, 6.4, 7.0, ,, 9.0%"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Q2 2024: $5.4 billion to $6.0 billion, 10.5% of midpoint",
+          "met": true,
+          "evidence": "Found required numbers: 2, 2024, 5.4, 6.0, ,, 10.5%"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Average size of AMD's guidance range\nQ1 2025: $6.8 billion to $7.4 billion, 8.5% of midpoint\nQ4 2024: $7.2 billion to $7.8 billion, 8.0% of midpoint\nQ3 2024: $6.4 billion to $7.0 billion, 9.0% of midpoint\nQ2 2024: $5.4 billion to $6.0 billion, 10.5% of midpoint",
+          "met": true,
+          "evidence": "Found required numbers: 1, 2025, 6.8, 7.4, ,, 8.5%, 4, 2024, 7.2, 7.8, ,, 8.0%, 3, 2024, 6.4, 7.0, ,, 9.0%, 2, 2024, 5.4, 6.0, ,, 10.5%"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 4/4 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 5,
+      "question_type": "Qualitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Thomas Carley",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Joseph Clabby",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Thomas Cusick",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Gary Kramer",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Anthony Meeker",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Carla Moradi",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Alexandra Morehouse",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Vincent Price",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Thomas Carley\nJoseph Clabby\nThomas Cusick\nGary Kramer\nAnthony Meeker\nCarla Moradi\nAlexandra Morehouse\nVincent Price",
+          "met": true,
+          "evidence": "Found 8/8 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 8/8 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 6,
+      "question_type": "Complex Retrieval",
+      "difficulty": "Hard",
+      "expert_time_mins": 20,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Acceptable",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "AMZN FY 2025 capital expenditure guidance: $105.2 billion",
+          "met": true,
+          "evidence": "Found 2/2 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "GOOG FY 2025 capital expenditure guidance: $75.0 billion",
+          "met": true,
+          "evidence": "Found 2/2 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "META FY 2025 capital expenditure guidance: $62.5 billion",
+          "met": true,
+          "evidence": "Found 2/2 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "AMZN plans to spend the most on capital expenditures in 2025",
+          "met": true,
+          "evidence": "Found required numbers: 2025"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "FY 2025 capital expenditure guidance\nAMZN: $105.2 billion (management guided 2025 = Q4 2024 run-rate)\nGOOG: $75.0 billion\nMETA: $62.5 billion (at midpoint)\n\nAMZN plans to spend the most on capital expenditures in 2025.",
+          "met": true,
+          "evidence": "Found 6/8 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 4/4 rubric criteria. Sources: Acceptable."
+    },
+    {
+      "question_num": 7,
+      "question_type": "Qualitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 2,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Elinor Mertz is the current CFO of Airbnb",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Elinor Mertz",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 8,
+      "question_type": "Quantitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 2,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "$3.25 Billion",
+          "met": true,
+          "evidence": "Found required numbers: 3.25"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "$3.25 Billion",
+          "met": true,
+          "evidence": "Found required numbers: 3.25"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 9,
+      "question_type": "Beat or Miss",
+      "difficulty": "Medium",
+      "expert_time_mins": 10,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "140 basis points beat on Q3 2024 GAAP gross margin guidance",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "140bps BEAT",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 10,
+      "question_type": "Numerical Reasoning",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Acceptable",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "2024 revenue: 2,865,507",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "2022 revenue: 1,905,871",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "3 year revenue CAGR: 14.56%",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "2024: 2,865,507\n2022: 1,905,871\n\nCAGR: 14.56%",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 3/3 rubric criteria. Sources: Acceptable."
+    },
+    {
+      "question_num": 11,
+      "question_type": "Quantitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Class A: 432,876,657 shares",
+          "met": true,
+          "evidence": "Found required numbers: 432,876,657"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Class B: 188,462,942 shares",
+          "met": true,
+          "evidence": "Found required numbers: 188,462,942"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Class C: 0",
+          "met": true,
+          "evidence": "Found required numbers: 0"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Class H: 9,200,000 shares",
+          "met": true,
+          "evidence": "Found required numbers: 9,200,000"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Common shares outstanding\nClass A: 432,876,657 shares \nClass B: 188,462,942 shares\nClass C: 0\nClass H: 9,200,000 shares",
+          "met": true,
+          "evidence": "Found required numbers: 432,876,657, 188,462,942, 0, 9,200,000"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 4/4 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 12,
+      "question_type": "Financial Modeling",
+      "difficulty": "Very Hard",
+      "expert_time_mins": 60,
+      "status": "Answered",
+      "correctness_score": 80.0,
+      "has_contradictions": true,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Q1 2025 guidance (USD): $25.0B to $25.4B",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Q1 2025 guidance (NT$ at 32.9): 833,120",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "February to March revenue growth rate 2022: 17.0%",
+          "met": true,
+          "evidence": "Strong word overlap (67%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "February to March revenue growth rate 2023: 10.9%",
+          "met": true,
+          "evidence": "Strong word overlap (67%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "February to March revenue growth rate 2024: 7.5%",
+          "met": true,
+          "evidence": "Strong word overlap (67%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Average February to March growth rate: 4.5%",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "February 2025 revenue (NT$): 260,009",
+          "met": true,
+          "evidence": "Strong word overlap (67%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "March 2025 revenue (estimate, NT$): 271,810",
+          "met": true,
+          "evidence": "Strong word overlap (75%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Q1 2025 estimate: 825,107",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Q1 2025: -1.0% Miss",
+          "met": true,
+          "evidence": "Found 2/2 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Q1 2025 guidance (USD): $25.0B to $25.4B\nQ1 2025 guidance (NT$ at 32.9): 833,120\n\nFebruary to March revenue growth rate 2022: 17.0%\nFebruary to March revenue growth rate 2023: 10.9%\nFebruary to March revenue growth rate 2024: 7.5%\n\nAverage: 4.5%\n\nFebruary 2025 revenue (NT$): 260,009\nMarch 2025 revenue (estimate, NT$): 271,810\n\nQ1 2025 guidance: 833,120\nQ1 2025 estimate: 825,107\n\nQ1: -1.0% Miss",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        }
+      ],
+      "final_score": 80.0,
+      "comments": "Answer provided but has contradictions. Met 8/10 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 13,
+      "question_type": "Numerical Reasoning",
+      "difficulty": "Medium",
+      "expert_time_mins": 10,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "The total amount of directors compensations paid by 3D Systems in 2023 was $2,263,113.",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "The total amount of directors compensations paid by 3D Systems in 2023 was $2,263,113.",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 14,
+      "question_type": "Trends",
+      "difficulty": "Medium",
+      "expert_time_mins": 15,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": true,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "2024 FCF margin: 12.7%",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "2023 FCF margin: 11.3%",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "2022 FCF margin: 24.8%",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "FCF margin has declined substantially since 2022",
+          "met": true,
+          "evidence": "Found required numbers: 2022"
+        },
+        {
+          "type": "correctness",
+          "criteria": "FCF margin settled into low teens percent in 2023 and 2024",
+          "met": true,
+          "evidence": "Found required numbers: 2023, 2024"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "2024: 12.7%\n2023: 11.3%\n2022: 24.8%\n\nFCF margin has declined substantially since 2022 and seems to have settled into a new normal of low teens percent.",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided but has contradictions. Met 5/5 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 15,
+      "question_type": "Numerical Reasoning",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Skipped",
+      "correctness_score": 0.0,
+      "has_contradictions": false,
+      "sources_quality": "Poor",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "CoS: $14,060",
+          "met": false,
+          "evidence": "No answer provided"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Avg. Inventory: $2,168",
+          "met": false,
+          "evidence": "No answer provided"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Inventory Turnover = 6.49",
+          "met": false,
+          "evidence": "No answer provided"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "CoS: $14,060\nAvg. Inventory: $2,168\nInventory Turnover = 6.49",
+          "met": false,
+          "evidence": "No answer provided"
+        }
+      ],
+      "final_score": 0,
+      "comments": "Question was skipped - no answer provided"
+    },
+    {
+      "question_num": 16,
+      "question_type": "Complex Retrieval",
+      "difficulty": "Very Hard",
+      "expert_time_mins": 35,
+      "status": "Answered",
+      "correctness_score": 81.8,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Offering: 51,750,000 shares ($2,587,500,000 aggregate liquidation preference) of Series D Mandatory Convertible Preferred Stock, with an over-allotment option of 6,750,000 shares ($337,500,000 aggregate liquidation preference)",
+          "met": true,
+          "evidence": "Found 2/2 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Closing/Settlement Date: March 7, 2025",
+          "met": true,
+          "evidence": "Found required numbers: 7,, 2025"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Price: $50.00 per share",
+          "met": true,
+          "evidence": "Found required numbers: 50.00"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Liquidation Preference: $50.00 per share, plus accumulated and unpaid dividends",
+          "met": true,
+          "evidence": "Found required numbers: 50.00, ,"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Dividend: 6.25% per annum on the $50.00 liquidation preference, payable quarterly (Mar. 1, Jun. 1, Sept. 1, Dec. 1 of each year; starting Jun. 1, 2025 until Mar. 1, 2028)",
+          "met": true,
+          "evidence": "Found required numbers: 6.25%, 50.00, ,, 1,, 1,, 1,, 1, 1,, 2025, 1,, 2028"
+        },
+        {
+          "type": "correctness",
+          "criteria": "No dividends on KKR common stock so long as Series D mandatory convertible prefs remain outstanding",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Mandatory Conversion: Each share will automatically convert into 0.3312-0.4140 shares of KKR common stock on the mandatory conversion date (expected Mar. 1, 2028), based on avg. VWAP per share of KKR common stock over 20 consecutive trading day period beginning 21st trading day immediately prior to Mar. 1, 2028",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Optional Conversion: Holders have option to convert at any time prior to mandatory conversion date at bottom of the conversion rate range",
+          "met": true,
+          "evidence": "Found 2/2 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Voting Rights: Generally none (with some exceptions under specific circumstances - e.g., nonpayment of dividends)",
+          "met": true,
+          "evidence": "Found required numbers: ,"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Redemption: No optional redemption by KKR",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Purpose: KKR intends to use net proceeds of offering to acquire additional equity in its core private equity portfolio companies and other general corporate purposes",
+          "met": true,
+          "evidence": "Found 2/2 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "- Offering: 51,750,000 shares ($2,587,500,000 aggregate liquidation preference) of Series D Mandatory Convertible Preferred Stock, with an over-allotment option of 6,750,000 shares ($337,500,000 aggregate liquidation preference)\n- Closing/Settlement Date: March 7, 2025\n- Price: $50.00 per share\n- Liquidation Preference: $50.00 per share, plus accumulated and unpaid dividends\n- Dividend: 6.25% per annum on the $50.00 liquidation preference, payable quarterly (Mar. 1, Jun. 1, Sept. 1, Dec. 1 of each year; starting Jun. 1, 2025 until Mar. 1, 2028)\n- No dividends on KKR common stock so long as Series D mandatory convertible prefs remain outstanding\n- Mandatory Conversion: Each share will automatically convert into 0.3312-0.4140 shares of KKR common stock on the mandatory conversion date (expected Mar. 1, 2028), based on avg. VWAP per share of KKR common stock over 20 consecutive trading day period beginning 21st trading day immediately prior to Mar. 1, 2028\n- Optional Conversion: Holders have option to convert at any time prior to mandatory conversion date at bottom of the conversion rate range\n- Voting Rights: Generally none (with some exceptions under specific circumstances - e.g., nonpayment of dividends)\n- Redemption: No optional redemption by KKR\n- Purpose: KKR intends to use net proceeds of offering to acquire additional equity in its core private equity portoflio companies and other general corporate purposes.",
+          "met": true,
+          "evidence": "Found 15/21 key concepts from criterion"
+        }
+      ],
+      "final_score": 81.8,
+      "comments": "Answer provided. Met 9/11 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 17,
+      "question_type": "Trends",
+      "difficulty": "Medium",
+      "expert_time_mins": 15,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Acceptable",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "2022 - 13.3%",
+          "met": true,
+          "evidence": "Found required numbers: 2022, 13.3%"
+        },
+        {
+          "type": "correctness",
+          "criteria": "2023 - 13.5%",
+          "met": true,
+          "evidence": "Found required numbers: 2023, 13.5%"
+        },
+        {
+          "type": "correctness",
+          "criteria": "2024 - 13.6%",
+          "met": true,
+          "evidence": "Found required numbers: 2024, 13.6%"
+        },
+        {
+          "type": "correctness",
+          "criteria": "ABNB incrementally increased its take rate year over year from 2022 to 2024",
+          "met": true,
+          "evidence": "Found required numbers: 2022, 2024"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "2022 - 13.3%\n2023 - 13.5%\n2024 - 13.6%\n \nFrom 2022 - 2024, ABNB incrementally increased its take rate year over year.",
+          "met": true,
+          "evidence": "Found required numbers: 2022, 13.3%, 2023, 13.5%, 2024, 13.6%, 2022, 2024,"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 4/4 rubric criteria. Sources: Acceptable."
+    },
+    {
+      "question_num": 18,
+      "question_type": "Qualitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Workday reports Gross Revenue Retention Rate",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Gross Revenue Retention Rate definition: percentage of recurring revenue retained from existing customers",
+          "met": true,
+          "evidence": "Found 2/2 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Gross Revenue Retention Rate calculation: compares total annual recurring revenue (ARR) of customers from prior period-end to current period-end",
+          "met": true,
+          "evidence": "Found 2/2 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Gross Revenue Retention Rate accounts for recurring revenues lost to product or customer churn",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Gross Revenue Retention Rate does not account for additional revenue from add-ons or net expansions",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Workday tracks and reports on Gross Revenue Retention Rate. \n\nThe company defines Gross Revenue Retention Rate as the percentage of recurring revenue retained from existing customers and is calculated by taking total annual recurring revenue (“ARR”) of our customers as of the corresponding prior period-end and comparing that to ARR from that same set of customers as of the current period-end. The metric takes into account recurring revenues lost to product or customer churn but does not account for additional revenue earned from add-ons or net expansions, which include volume and price adjustments. ",
+          "met": true,
+          "evidence": "Found required numbers: ,"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 5/5 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 19,
+      "question_type": "Numerical Reasoning",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Skipped",
+      "correctness_score": 0.0,
+      "has_contradictions": false,
+      "sources_quality": "Poor",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "$85,002 thousands which is 51.3% of leases",
+          "met": false,
+          "evidence": "No answer provided"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "$85,002 thousands which is 51.3% of leases",
+          "met": false,
+          "evidence": "No answer provided"
+        }
+      ],
+      "final_score": 0,
+      "comments": "Question was skipped - no answer provided"
+    },
+    {
+      "question_num": 20,
+      "question_type": "Numerical Reasoning",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 66.7,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Effective Tax Rate 2023: 6.8%",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Effective Tax Rate 2024: 10.9%",
+          "met": true,
+          "evidence": "Found required numbers: 2024, 10.9%"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Delta: increased 410bps",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Effective Tax Rate\n2023: 6.8%\n2024: 10.9%\nDelta: increased 410bps",
+          "met": true,
+          "evidence": "Found 5/7 key concepts from criterion"
+        }
+      ],
+      "final_score": 66.7,
+      "comments": "Answer provided. Met 2/3 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 21,
+      "question_type": "Qualitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Skipped",
+      "correctness_score": 0.0,
+      "has_contradictions": false,
+      "sources_quality": "Poor",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Shift4's merchant processing activity in North America is facilitated by one vendor.",
+          "met": false,
+          "evidence": "No answer provided"
+        },
+        {
+          "type": "correctness",
+          "criteria": "The Company believes that this vendor maintains appropriate backup systems and alternative arrangements to avoid a significant disruption of the processing in the event of an unforeseen event.",
+          "met": false,
+          "evidence": "No answer provided"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "The Company’s merchant processing activity in North America is facilitated by one vendor. The Company believes that this vendor maintains appropriate backup systems and alternative arrangements to avoid a significant disruption of the processing in the event of an unforeseen event.",
+          "met": false,
+          "evidence": "No answer provided"
+        }
+      ],
+      "final_score": 0,
+      "comments": "Question was skipped - no answer provided"
+    },
+    {
+      "question_num": 22,
+      "question_type": "Numerical Reasoning",
+      "difficulty": "Medium",
+      "expert_time_mins": 10,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Acceptable",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "FY 2022: $160.44",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "FY 2023: $163.51",
+          "met": true,
+          "evidence": "Found required numbers: 2023, 163.51"
+        },
+        {
+          "type": "correctness",
+          "criteria": "FY 2024: $166.23",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "GBV per Nights and Experiences Booked\n2022: $160.44\n2023: $163.51\n2024: $166.23",
+          "met": true,
+          "evidence": "Found 5/7 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 3/3 rubric criteria. Sources: Acceptable."
+    },
+    {
+      "question_num": 23,
+      "question_type": "Qualitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Production expected to begin in 2025",
+          "met": true,
+          "evidence": "Found required numbers: 2025"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Production expected to begin in 2025",
+          "met": true,
+          "evidence": "Found required numbers: 2025"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 24,
+      "question_type": "Numerical Reasoning",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Salesforce's debt excluding sustainability notes is $7.5 billion as of March 10, 2025",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Salesforce's debt excluding sustainability notes is $7.5 billion as of March 10, 2025",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 25,
+      "question_type": "Qualitative Retrieval",
+      "difficulty": "Hard",
+      "expert_time_mins": 20,
+      "status": "Answered",
+      "correctness_score": 75.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Global data privacy regulatory environment is evolving, impacting HCM and payroll providers.",
+          "met": true,
+          "evidence": "Found required numbers: ,"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Federal and state laws, including FTC rules, HIPAA, CCPA/CPRA, BIPA, and state breach notification laws, govern data privacy.",
+          "met": true,
+          "evidence": "Found required numbers: ,, ,, ,, ,, ,, ,"
+        },
+        {
+          "type": "correctness",
+          "criteria": "GDPR and other foreign laws affect operations due to clients with global footprints.",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Changing tax, benefit, and privacy laws may require product modifications, increase costs, delay new offerings, or reduce demand.",
+          "met": true,
+          "evidence": "Found required numbers: ,, ,, ,, ,, ,"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Potential licensing requirements for money transmitter businesses could limit operations or increase compliance costs.",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Third-party partners and suppliers may experience breaches, supply-chain attacks, or system failures, which could harm business operations and lead to significant liabilities.",
+          "met": true,
+          "evidence": "Found required numbers: ,, ,, ,"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Security incidents could damage trust in HCM and payroll solutions, affecting client retention and acquisition.",
+          "met": true,
+          "evidence": "Found required numbers: ,"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Regulatory scrutiny on cybersecurity is increasing, requiring additional investment to maintain compliance.",
+          "met": true,
+          "evidence": "Found required numbers: ,"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "- The global data privacy regulatory environment is evolving, impacting HCM and payroll providers.\n- Federal and state laws, including FTC rules, HIPAA, CCPA/CPRA, BIPA, and state breach notification laws, govern data privacy.\n- GDPR and other foreign laws affect operations due to clients with global footprints.\n- Changing tax, benefit, and privacy laws may require product modifications, increase costs, delay new offerings, or reduce demand.\n- Potential licensing requirements for money transmitter businesses could limit operations or increase compliance costs.\n- Third-party partners and suppliers may experience breaches, supply-chain attacks, or system failures, which could harm business operations and lead to significant liabilities.\n- Security incidents could damage trust in HCM and payroll solutions, affecting client retention and acquisition.\n- Regulatory scrutiny on cybersecurity is increasing, requiring additional investment to maintain compliance.",
+          "met": true,
+          "evidence": "Found required numbers: ,, ,, ,, ,, ,, ,, ,, ,, ,, ,, ,, ,, ,, ,, ,, ,, ,"
+        }
+      ],
+      "final_score": 75.0,
+      "comments": "Answer provided. Met 6/8 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 26,
+      "question_type": "Numerical Reasoning",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "45% (102,000/228,000) of Microsoft's full-time employees are located outside of the United States as of June 30, 2024.",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "45% (102,000/228,000) of Microsoft's full-time employees are located outside of the United States as of June 30, 2024.",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 27,
+      "question_type": "Qualitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": true,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "$500 million of Series A 6.500% Fixed-to-Floating Rate Junior Subordinated Debentures",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Scheduled maturity date: May 15, 2057",
+          "met": true,
+          "evidence": "Found required numbers: 15,, 2057"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Final maturity date: May 15, 2067",
+          "met": true,
+          "evidence": "Found required numbers: 15,, 2067"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Redeemable on or after May 15, 2037 at principal amount plus accrued and unpaid interest",
+          "met": true,
+          "evidence": "Found required numbers: 15,, 2037"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Redeemable prior to May 15, 2037 at principal amount plus accrued and unpaid interest or make-whole price",
+          "met": true,
+          "evidence": "Found required numbers: 15,, 2037"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "As of December 31, 2024, the Company had outstanding $500 million of Series A 6.500% Fixed-to-Floating Rate Junior Subordinated Debentures (“Junior Subordinated Debentures”). The scheduled maturity date for the Debentures is May 15, 2057 with a final maturity date of May 15, 2067. The Junior Subordinated Debentures may be redeemed (i) in whole or in part, at any time on or after May 15, 2037 at the principal amount plus accrued and unpaid interest to the date of redemption, or (ii) in certain circumstances, in whole or in part, prior to May 15, 2037 at the principal amount plus accrued and unpaid interest to the date of redemption or, if greater, a make-whole price. Additional information can be provided upon request.",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided but has contradictions. Met 5/5 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 28,
+      "question_type": "Quantitative Retrieval",
+      "difficulty": "Medium",
+      "expert_time_mins": 10,
+      "status": "Answered",
+      "correctness_score": 0,
+      "has_contradictions": true,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "$14,426,266,000",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "$14,426,266,000",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        }
+      ],
+      "final_score": 0,
+      "comments": "Answer provided but has contradictions. Met 0/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 29,
+      "question_type": "Qualitative Retrieval",
+      "difficulty": "Medium",
+      "expert_time_mins": 10,
+      "status": "Answered",
+      "correctness_score": 68.8,
+      "has_contradictions": true,
+      "sources_quality": "Acceptable",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Average aircraft: 209.9",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Aircraft at end of period: 213",
+          "met": true,
+          "evidence": "Found required numbers: 213"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Average daily aircraft utilization (hours): 9.9",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Departures: 288,180",
+          "met": true,
+          "evidence": "Found required numbers: 288,180"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Passenger flight segments (PFSs): 44,180,000",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Revenue passenger miles (RPMs): 43,671,009,000",
+          "met": true,
+          "evidence": "Strong word overlap (75%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Available seat miles (ASMs): 53,017,948,000",
+          "met": true,
+          "evidence": "Strong word overlap (75%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Load factor: 0.824",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Total revenue per passenger flight segment: $111.21",
+          "met": true,
+          "evidence": "Found required numbers: 111.21"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Average yield (cents): $0.11",
+          "met": true,
+          "evidence": "Strong word overlap (67%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "TRASM (cents): $0.93",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "CASM (cents): $0.11",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Adjusted CASM (cents): $0.11",
+          "met": true,
+          "evidence": "Strong word overlap (67%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Adjusted CASM ex-fuel (cents): $0.80",
+          "met": true,
+          "evidence": "Strong word overlap (75%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Fuel gallons consumed: 551,819,000",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Average fuel cost per gallon: $2.68",
+          "met": true,
+          "evidence": "Strong word overlap (75%) with criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Average aircraft: 209.9\nAircraft at end of period: 213\nAverage daily aircraft utilization (hours): 9.9\nDepartures: 288,180\nPassenger flight segments (PFSs): 44,180,000\nRevenue passenger miles (RPMs): 43,671,009,000\nAvailable seat miles (ASMs) : 53,017,948,000\nLoad factor: 0.824\nTotal revenue per passenger flight segment: $111.21\nAverage yield (cents): $0.11\nTRASM (cents): $0.93\nCASM (cents): $0.11\nAdjusted CASM (cents): $0.11\nAdjusted CASM ex-fuel (cents): $0.80\nFuel gallons consumed: 551,819,000\nAverage fuel cost per gallon: $2.68",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        }
+      ],
+      "final_score": 68.8,
+      "comments": "Answer provided but has contradictions. Met 11/16 rubric criteria. Sources: Acceptable."
+    },
+    {
+      "question_num": 30,
+      "question_type": "Financial Modeling",
+      "difficulty": "Hard",
+      "expert_time_mins": 30,
+      "status": "Answered",
+      "correctness_score": 0,
+      "has_contradictions": true,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "85,945,127 shares if all converts were converted (including out of the money converts)",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "85,945,127 shares if all converts were converted (including out of the money converts)",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        }
+      ],
+      "final_score": 0,
+      "comments": "Answer provided but has contradictions. Met 0/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 31,
+      "question_type": "Financial Modeling",
+      "difficulty": "Medium",
+      "expert_time_mins": 10,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "BROS gross profit in 2026 is $467 million",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "$467 million",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 32,
+      "question_type": "Quantitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 3,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Purchase loan originations: $12,057,993 in thousands",
+          "met": true,
+          "evidence": "Strong word overlap (75%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Refinance loan originations: $5,250,321 in thousands",
+          "met": true,
+          "evidence": "Strong word overlap (75%) with criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Purchase: $12,057,993\nRefinance: $5,250,321\nIn thousands",
+          "met": true,
+          "evidence": "Strong word overlap (67%) with criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 2/2 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 33,
+      "question_type": "Adjustments",
+      "difficulty": "Medium",
+      "expert_time_mins": 15,
+      "status": "Answered",
+      "correctness_score": 50.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "$1.261 Billion Negative Impact to Net Income",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "10.7% decrease in Net Income",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "$1.261 Billion Negative Impact to Net Income, or a 10.7% decrease",
+          "met": true,
+          "evidence": "Strong word overlap (60%) with criterion"
+        }
+      ],
+      "final_score": 50.0,
+      "comments": "Answer provided. Met 1/2 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 34,
+      "question_type": "Quantitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "20% of customers were derived from channel partners",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "20% of customers were derived from channel partners",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 35,
+      "question_type": "Adjustments",
+      "difficulty": "Medium",
+      "expert_time_mins": 10,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Stock-Based Compensation Expense: $1.935B",
+          "met": true,
+          "evidence": "Found required numbers: 1.935"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Stock-Based Compensation Expense: $1.935B",
+          "met": true,
+          "evidence": "Found required numbers: 1.935"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 36,
+      "question_type": "Quantitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 2,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Acceptable",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "0.7926 shares of Rocket Companies class A stock per share of Redfin",
+          "met": true,
+          "evidence": "Found required numbers: 0.7926"
+        },
+        {
+          "type": "correctness",
+          "criteria": "equity value of $1.75 billion",
+          "met": true,
+          "evidence": "Found required numbers: 1.75"
+        },
+        {
+          "type": "correctness",
+          "criteria": "enterprise value of $2.4 billion",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "0.7926 shares of Rocket Companies class A stock per share of Redfin, which represents an equity value of $1.75 billion, and a total enterprise value of $2.4 billion",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 3/3 rubric criteria. Sources: Acceptable."
+    },
+    {
+      "question_num": 37,
+      "question_type": "Quantitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Warner Discovery's Total Restructuring Costs as of Dec 31, 2024, were $4.7 Billion",
+          "met": true,
+          "evidence": "Found required numbers: 31,, 2024,, 4.7"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "$4.7 Billion",
+          "met": true,
+          "evidence": "Found required numbers: 4.7"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 38,
+      "question_type": "Beat or Miss",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Lyft's Q4'24 Adjusted EBITDA margin beat management guidance at midpoint in Q3'24 by 26.1bps",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Beat by 26.1bps at midpoint",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 39,
+      "question_type": "Qualitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 83.3,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Quarterly guidance includes Total Revenue YoY Growth",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Quarterly guidance includes Operating Margin",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Quarterly guidance includes Earnings Per Share",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Full FY guidance includes Earnings per Share YoY Growth",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Full FY guidance includes Free Cash Flow",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Full FY guidance includes Gross Leverage",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Delta Airlines provides quarterly guidance and full FY guidance. \n\nFor the Quarter, Delta provides guidance for Total Revenue YoY Growth, Operating Margin, and Earnings Per Share\n\nFor the Full FY, Delta provides guidance for Earnings per Share YoY Growth, Free Cash Flow, and Gross Leverage",
+          "met": true,
+          "evidence": "Found required numbers: ,, ,, ,, ,, ,, ,"
+        }
+      ],
+      "final_score": 83.3,
+      "comments": "Answer provided. Met 5/6 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 40,
+      "question_type": "Adjustments",
+      "difficulty": "Medium",
+      "expert_time_mins": 10,
+      "status": "Answered",
+      "correctness_score": 85.7,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Provision for (benefit from) income taxes",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Other income (expense), net",
+          "met": true,
+          "evidence": "Found required numbers: ,"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Interest income",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Depreciation and amortization",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Stock-based compensation expense",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Acquisition-related impacts consisting of gains (losses) recognized on changes in the fair value of contingent consideration arrangements",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Lodging taxes, withholding taxes, and transactional taxes with significant uncertainty on application to platform",
+          "met": true,
+          "evidence": "Found required numbers: ,, ,"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Provision for (benefit from) income taxes;\nOther income (expense), net;\nInterest income;\nDepreciation and amortization;\nStock-based compensation expense;\nAcquisition-related impacts consisting of gains (losses) recognized on changes in the fair value of contingent consideration arrangements, and\nLodging taxes, withholding taxes, and transactional taxes where there is significant uncertainty as to how the taxes apply to our platform.",
+          "met": true,
+          "evidence": "Found required numbers: ,, ,, ,, ,"
+        }
+      ],
+      "final_score": 85.7,
+      "comments": "Answer provided. Met 6/7 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 41,
+      "question_type": "Quantitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 2,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "FND same-store sales growth in Q4 2024 is -0.8%",
+          "met": true,
+          "evidence": "Found required numbers: 4, 2024, 0.8%"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "FND same-store sales growth in Q4 2024 is -0.8%",
+          "met": true,
+          "evidence": "Found required numbers: 4, 2024, 0.8%"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 42,
+      "question_type": "Market Analysis",
+      "difficulty": "Hard",
+      "expert_time_mins": 30,
+      "status": "Answered",
+      "correctness_score": 0,
+      "has_contradictions": true,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "KDP: 0.83",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "KO: 0.79",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "PEP: 0.75",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "KHC: 0.70",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "SJM: 0.59",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "KDP: 0.83\nKO: 0.79\nPEP: 0.75\nKHC: 0.70\nSJM: 0.59",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        }
+      ],
+      "final_score": 0,
+      "comments": "Answer provided but has contradictions. Met 0/5 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 43,
+      "question_type": "Financial Modeling",
+      "difficulty": "Medium",
+      "expert_time_mins": 15,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Take rate 2023: 27.04%",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Take rate 2024: 27.02%",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Take rate was virtually flat from 2023 to 2024",
+          "met": true,
+          "evidence": "Found required numbers: 2023, 2024"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Overall revenue growth was 18%",
+          "met": true,
+          "evidence": "Found required numbers: 18%"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Gross bookings growth YoY: 18%",
+          "met": true,
+          "evidence": "Found required numbers: 18%"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Mobility segment growth: 25%",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Delivery segment growth: 17%",
+          "met": true,
+          "evidence": "Strong word overlap (100%) with criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Freight segment growth: 2%",
+          "met": true,
+          "evidence": "Found required numbers: 2%"
+        },
+        {
+          "type": "correctness",
+          "criteria": "All growth in revenue was driven by volume, not take rate increases",
+          "met": true,
+          "evidence": "Found required numbers: ,"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Take Rate:\n2023: 27.04%\n2024: 27.02%\n\nTake rate was virtually flat from 2023 to 2024. Overall revenue growth was 18%, driven by the 18% gross bookings growth YoY (25% in mobility, 17% in delivery and 2% in freight). Hence, all growth in revenue was driven by pure volume as opposed to take rate increases",
+          "met": true,
+          "evidence": "Found 4/6 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 9/9 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 44,
+      "question_type": "Quantitative Retrieval",
+      "difficulty": "Easy",
+      "expert_time_mins": 5,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Acceptable",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Asia Pacific - 3.3 Nights per Booking",
+          "met": true,
+          "evidence": "Found required numbers: 3.3"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Asia Pacific - 3.3 Nights per Booking",
+          "met": true,
+          "evidence": "Found required numbers: 3.3"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Acceptable."
+    },
+    {
+      "question_num": 45,
+      "question_type": "Adjustments",
+      "difficulty": "Medium",
+      "expert_time_mins": 10,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "In 2024, Airbnb adjusted its EBITDA by $1,407,000,000 to exclude stock-based compensation expense",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "In 2024, Airbnb adjusted its EBITDA by $1,407,000,000 to exclude stock-based compensation expense",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 46,
+      "question_type": "Market Analysis",
+      "difficulty": "Hard",
+      "expert_time_mins": 30,
+      "status": "Answered",
+      "correctness_score": 33.3,
+      "has_contradictions": true,
+      "sources_quality": "Acceptable",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Acquisition of Follow Up Boss for $399 million with up to $100 million in contingent consideration on December 8",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Acquisition of Spruce for $19 million on September 11",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Acquisition of Aryeo for $35 million on July 31",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Decline in revenue related to Mortgages and Residential (Premier Agent) in post-COVID tight housing market",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Acquisition strategy focused on subscription revenue platforms",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Strategy to round out portfolio of home-buying services",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "The company has made several acquisitions of subscription revenue platforms. On December 8, it acquired Follow Up Boss, a CRM for real estate professionals, for $399 million, with up to $100 million in contingent consideration. On September 11, it acquired Spruce, a title and escrow platform, for $19 million. On July 31, the company acquired Aryeo, a software company for real estate photographers, for $35 million. In the post-COVID tight housing market environment, revenue related to Mortgages and Residential (Premier Agent) has declined. The business has acquired various software subscription revenue businesses as it continues to round out its portfolio of home-buying services.",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        }
+      ],
+      "final_score": 33.3,
+      "comments": "Answer provided but has contradictions. Met 2/6 rubric criteria. Sources: Acceptable."
+    },
+    {
+      "question_num": 47,
+      "question_type": "Beat or Miss",
+      "difficulty": "Medium",
+      "expert_time_mins": 10,
+      "status": "Answered",
+      "correctness_score": 100.0,
+      "has_contradictions": false,
+      "sources_quality": "Acceptable",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "7.4% MISS",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "7.4% MISS",
+          "met": true,
+          "evidence": "Found 1/1 key concepts from criterion"
+        }
+      ],
+      "final_score": 100.0,
+      "comments": "Answer provided. Met 1/1 rubric criteria. Sources: Acceptable."
+    },
+    {
+      "question_num": 48,
+      "question_type": "Beat or Miss",
+      "difficulty": "Hard",
+      "expert_time_mins": 30,
+      "status": "Answered",
+      "correctness_score": 57.1,
+      "has_contradictions": true,
+      "sources_quality": "Good",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "In Force Premium (IFP): $944 Million, high end of guidance range",
+          "met": true,
+          "evidence": "Found required numbers: 944, ,"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Gross Earned Premium (GEP): $827 Million, above high end of guidance range",
+          "met": true,
+          "evidence": "Found 2/2 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Revenue: $526.5 Million, above high end of range",
+          "met": true,
+          "evidence": "Found required numbers: 526.5, ,"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Adjusted EBITDA Loss: $(149.7) Million, above high end of range",
+          "met": true,
+          "evidence": "Found 2/2 key concepts from criterion"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Stock-based Compensation: $64.5 Million, above the expected $64 Million",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Capital Expenditures: $9.4 Million, below the expected $10 million",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Weighted Common Shares: 71 Million, right on target",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "In Force Premium (IFP): $944 Million, high end of guidance range\nGross Earned Premium (GEP): $827 Million, above high end of guidance range\nRevenue: $526.5 Million, above high end of range\nAdjusted EBITDA Loss: $(149.7) Million, above high end of range\nStock-based Compensation: $64.5 Million, above the expected $64 Million\nCapital Expenditures: $9.4 Million, below the expected $10 million\nWeighted Common Shares: 71 Million, right on target",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        }
+      ],
+      "final_score": 57.1,
+      "comments": "Answer provided but has contradictions. Met 4/7 rubric criteria. Sources: Good."
+    },
+    {
+      "question_num": 49,
+      "question_type": "Beat or Miss",
+      "difficulty": "Hard",
+      "expert_time_mins": 25,
+      "status": "Answered",
+      "correctness_score": 75.0,
+      "has_contradictions": true,
+      "sources_quality": "Acceptable",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "General Mills beat Adjusted Diluted EPS guidance in 2023",
+          "met": true,
+          "evidence": "Found required numbers: 2023"
+        },
+        {
+          "type": "correctness",
+          "criteria": "General Mills beat Adjusted Diluted EPS guidance midpoint in 2024",
+          "met": true,
+          "evidence": "Found required numbers: 2024"
+        },
+        {
+          "type": "correctness",
+          "criteria": "General Mills beat Adjusted Diluted EPS guidance twice in the past 2 years",
+          "met": true,
+          "evidence": "Found required numbers: 2"
+        },
+        {
+          "type": "correctness",
+          "criteria": "2025 Adjusted Diluted EPS guidance: $4.47 - $4.57",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "2023: Projected: $3.94 - $4.06, Actual: $4.3, BEAT\n2024: Projected: $4.47 - $4.56, Actual: $4.52, BEAT Midpoint\n\nIt has beaten twice - in 2023 and 2024 (beat midpoint in 2024 but missed high end of range)\n2025: Projected: $4.47 - $4.57",
+          "met": false,
+          "evidence": "Criterion not clearly met in answer"
+        }
+      ],
+      "final_score": 75.0,
+      "comments": "Answer provided but has contradictions. Met 3/4 rubric criteria. Sources: Acceptable."
+    },
+    {
+      "question_num": 50,
+      "question_type": "Beat or Miss",
+      "difficulty": "Hard",
+      "expert_time_mins": 20,
+      "status": "Skipped",
+      "correctness_score": 0.0,
+      "has_contradictions": false,
+      "sources_quality": "Poor",
+      "rubric_results": [
+        {
+          "type": "correctness",
+          "criteria": "Q1 2024: $2,861 million (1.9% BEAT)",
+          "met": false,
+          "evidence": "No answer provided"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Q2 2024: $3,101 million (2.6% BEAT)",
+          "met": false,
+          "evidence": "No answer provided"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Q3 2024: $3,657 million (2.0% BEAT)",
+          "met": false,
+          "evidence": "No answer provided"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Q4 2024: $4,140 million (2.2% BEAT)",
+          "met": false,
+          "evidence": "No answer provided"
+        },
+        {
+          "type": "correctness",
+          "criteria": "Average beat of 2.2% over the last 4 quarters",
+          "met": false,
+          "evidence": "No answer provided"
+        },
+        {
+          "type": "contradiction",
+          "criteria": "Non-GAAP gross profit\nQ1 2024: $2,861 million (1.9% BEAT)\nQ2 2024: $3,101 million (2.6% BEAT)\nQ3 2024: $3,657 million (2.0% BEAT)\nQ4 2024: $4,140 million (2.2% BEAT)\n\nOn average, AMD has beaten its gross profit guidance by 2.2% over the last 4 quarters.",
+          "met": false,
+          "evidence": "No answer provided"
+        }
+      ],
+      "final_score": 0,
+      "comments": "Question was skipped - no answer provided"
+    }
+  ],
+  "summary": {
+    "total_questions": 50,
+    "answered": 46,
+    "attempted": 0,
+    "skipped": 4,
+    "average_score": 78.6,
+    "by_difficulty": {
+      "Hard": 51.5,
+      "Medium": 87.8,
+      "Easy": 84.1,
+      "Very Hard": 80.9
+    },
+    "by_question_type": {
+      "Market Analysis": 36.1,
+      "Trends": 100.0,
+      "Beat or Miss": 76.0,
+      "Complex Retrieval": 93.9,
+      "Qualitative Retrieval": 80.8,
+      "Quantitative Retrieval": 88.9,
+      "Numerical Reasoning": 70.8,
+      "Financial Modeling": 70.0,
+      "Adjustments": 83.9
+    }
+  }
+}
