@@ -11,34 +11,44 @@
     "migrate": "node src/db/migrate.js",
     "seed": "node src/db/seed.js"
   },
-  "keywords": ["dataroom", "filesystem", "file-upload", "file-preview"],
+  "keywords": [
+    "dataroom",
+    "filesystem",
+    "file-upload",
+    "file-preview"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "pg": "^8.11.3",
+    "@aws-sdk/client-s3": "^3.930.0",
+    "@aws-sdk/lib-storage": "^3.930.0",
+    "@aws-sdk/s3-request-presigner": "^3.930.0",
+    "adm-zip": "^0.5.16",
     "bcrypt": "^5.1.1",
-    "jsonwebtoken": "^9.0.2",
-    "multer": "^1.4.5-lts.1",
-    "dotenv": "^16.3.1",
     "cors": "^2.8.5",
-    "helmet": "^7.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "express-rate-limit": "^7.1.5",
     "express-validator": "^7.0.1",
     "file-type": "^18.7.0",
-    "sharp": "^0.33.1",
-    "pdf-parse": "^1.1.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mammoth": "^1.6.0",
-    "xlsx": "^0.18.5",
+    "multer": "^1.4.5-lts.1",
     "papaparse": "^5.4.1",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.11.3",
+    "sharp": "^0.33.1",
+    "uuid": "^9.0.1",
     "winston": "^3.11.0",
-    "uuid": "^9.0.1"
+    "xlsx": "^0.18.5",
+    "yauzl": "^3.2.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2",
+    "@types/jest": "^29.5.11",
     "jest": "^29.7.0",
-    "supertest": "^6.3.3",
-    "@types/jest": "^29.5.11"
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
   },
   "engines": {
     "node": ">=18.0.0"
