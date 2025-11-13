@@ -435,6 +435,54 @@ async function moveFolder(folderId, userId, newParentId, ipAddress) {
       [folder.path, newPath, `${folder.path}/%`, userId]
     );
 
+    // Update closure table for moved folder and all descendants
+    // Step 1: Get all descendants of the moved folder
+    const descendantsResult = await client.query(
+      'SELECT descendant_id FROM folder_closure WHERE ancestor_id = $1',
+      [folderId]
+    );
+    const descendantIds = descendantsResult.rows.map(row => row.descendant_id);
+    descendantIds.push(folderId); // Include the moved folder itself
+
+    // Step 2: Delete old ancestor relationships for all affected folders
+    // (except self-referencing rows which remain valid)
+    await client.query(
+      `DELETE FROM folder_closure
+       WHERE descendant_id = ANY($1)
+       AND ancestor_id != descendant_id`,
+      [descendantIds]
+    );
+
+    // Step 3: Rebuild ancestor relationships for all affected folders
+    for (const descendantId of descendantIds) {
+      // Add self-reference (if not already exists)
+      await client.query(
+        `INSERT INTO folder_closure (ancestor_id, descendant_id, depth)
+         VALUES ($1, $1, 0)
+         ON CONFLICT (ancestor_id, descendant_id) DO NOTHING`,
+        [descendantId]
+      );
+
+      // Get the current folder to find its parent
+      const currentFolderResult = await client.query(
+        'SELECT parent_id FROM folders WHERE id = $1',
+        [descendantId]
+      );
+
+      if (currentFolderResult.rows.length > 0 && currentFolderResult.rows[0].parent_id) {
+        const parentId = currentFolderResult.rows[0].parent_id;
+
+        // Add relationships to all ancestors of the parent
+        await client.query(
+          `INSERT INTO folder_closure (ancestor_id, descendant_id, depth)
+           SELECT ancestor_id, $1, depth + 1
+           FROM folder_closure
+           WHERE descendant_id = $2`,
+          [descendantId, parentId]
+        );
+      }
+    }
+
     await createAuditLog({
       userId,
       action: 'move_folder',

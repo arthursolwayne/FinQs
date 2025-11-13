@@ -79,34 +79,134 @@ async function generateImagePreview(fileId, imagePath, storageType = 'local') {
 }
 
 /**
- * Generate PDF preview (first page thumbnail)
+ * Generate PDF preview (text extraction + metadata)
  */
 async function generatePdfPreview(fileId, pdfPath, storageType = 'local') {
   try {
-    // For PDF preview, we need pdf-poppler or similar
-    // For now, return a placeholder indicating PDF type
-    // In production, you would use node-poppler or pdf2pic here
+    const pdfParse = require('pdf-parse');
 
-    const previewFilename = `${fileId}_pdf_preview.json`;
+    // Get PDF buffer (works with both local and S3)
+    let pdfBuffer;
+    if (storageType === 's3') {
+      const storage = getStorage();
+      pdfBuffer = await storage.retrieve(pdfPath);
+    } else {
+      pdfBuffer = await fs.readFile(pdfPath);
+    }
+
+    // Parse PDF to extract text and metadata
+    const data = await pdfParse(pdfBuffer);
+
+    const previewFilename = `${fileId}-preview.html`;
     const previewPath = path.join(PREVIEW_DIR, previewFilename);
 
     await fs.mkdir(PREVIEW_DIR, { recursive: true });
 
-    // Store metadata about the PDF
-    const metadata = {
-      type: 'pdf',
-      message: 'PDF preview generation requires pdf-poppler installation',
-      fileId,
-      timestamp: new Date().toISOString(),
-    };
+    // Create HTML preview with extracted text
+    const fullHtml = `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PDF Preview</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      padding: 30px;
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    .metadata {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .metadata h2 {
+      margin-top: 0;
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
+    }
+    .metadata-grid {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      gap: 10px;
+      margin-top: 15px;
+    }
+    .metadata-label {
+      font-weight: 600;
+      color: #555;
+    }
+    .metadata-value {
+      color: #333;
+    }
+    .content {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      line-height: 1.8;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    .content h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="metadata">
+    <h2>📄 PDF Document Information</h2>
+    <div class="metadata-grid">
+      <div class="metadata-label">Pages:</div>
+      <div class="metadata-value">${data.numpages}</div>
+      <div class="metadata-label">Title:</div>
+      <div class="metadata-value">${data.info?.Title || 'N/A'}</div>
+      <div class="metadata-label">Author:</div>
+      <div class="metadata-value">${data.info?.Author || 'N/A'}</div>
+      <div class="metadata-label">Subject:</div>
+      <div class="metadata-value">${data.info?.Subject || 'N/A'}</div>
+      <div class="metadata-label">Creator:</div>
+      <div class="metadata-value">${data.info?.Creator || 'N/A'}</div>
+      <div class="metadata-label">Creation Date:</div>
+      <div class="metadata-value">${data.info?.CreationDate || 'N/A'}</div>
+    </div>
+  </div>
+  <div class="content">
+    <h2>📝 Extracted Text Content</h2>
+    ${escapeHtml(data.text)}
+  </div>
+</body>
+</html>`;
 
-    await fs.writeFile(previewPath, JSON.stringify(metadata, null, 2));
+    await fs.writeFile(previewPath, fullHtml);
 
+    console.log(`✓ PDF preview generated: ${previewFilename} (${data.numpages} pages, ${data.text.length} chars)`);
     return previewPath;
   } catch (error) {
     console.error('Error generating PDF preview:', error);
     return null;
   }
+}
+
+/**
+ * Escape HTML special characters
+ */
+function escapeHtml(text) {
+  if (!text) return '';
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
 }
 
 /**

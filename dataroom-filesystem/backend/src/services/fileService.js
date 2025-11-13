@@ -325,8 +325,18 @@ async function searchFiles(userId, searchQuery, options = {}) {
     paramIndex++;
   }
 
-  // Add folder filter
+  // Add folder filter (with ownership verification)
   if (folderId) {
+    // Verify user owns the folder
+    const folderCheck = await query(
+      'SELECT id FROM folders WHERE id = $1 AND user_id = $2 AND is_deleted = FALSE',
+      [folderId, userId]
+    );
+
+    if (folderCheck.rows.length === 0) {
+      throw new Error('Folder not found or access denied');
+    }
+
     whereConditions.push(`folder_id = $${paramIndex}`);
     params.push(folderId);
     paramIndex++;
