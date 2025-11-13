@@ -1,0 +1,251 @@
+================================================================================
+                    FILE DOWNLOAD FLOW DIAGRAMS
+================================================================================
+
+1. LOCAL STORAGE DOWNLOAD FLOW
+================================================================================
+
+    ┌─────────────────┐
+    │  Client Request │
+    │  GET /files/:id │
+    │  /download      │
+    └────────┬────────┘
+             │
+             ▼
+    ┌─────────────────────────┐
+    │ requireAuth Middleware  │
+    │ - Extract Bearer token  │
+    │ - Verify JWT signature  │
+    │ - Extract userId        │
+    └────────┬────────────────┘
+             │
+             ▼
+    ┌─────────────────────────┐
+    │ validateUUID Middleware │
+    │ - Validate file ID      │
+    │ - UUID format check     │
+    └────────┬────────────────┘
+             │
+             ▼
+    ┌──────────────────────────┐
+    │ downloadFile() Service   │
+    │ - getFileById(id, userId)│
+    └────────┬─────────────────┘
+             │
+             ▼
+    ┌─────────────────────────────────────────┐
+    │ Database Query:                         │
+    │ SELECT * FROM files                     │
+    │ WHERE id=$1 AND user_id=$2              │
+    │   AND is_deleted=FALSE                  │
+    └────────┬────────────────────────────────┘
+             │
+        ┌────┴────┐
+        │          │
+    NOT FOUND   FOUND
+        │          │
+        ▼          ▼
+    404 Error  ┌──────────────────────┐
+               │ Audit Logging        │
+               │ - Log 'download'     │
+               │ - Store IP address   │
+               │ - Store filename     │
+               └─────────┬────────────┘
+                         │
+                         ▼
+                ┌────────────────────────┐
+                │ Check STORAGE_TYPE     │
+                └────────┬───────────────┘
+                         │
+                    Local Storage
+                         │
+                         ▼
+                ┌────────────────────────┐
+                │ Get file full path     │
+                │ storage.getFullPath()  │
+                └─────────┬──────────────┘
+                          │
+                          ▼
+                ┌──────────────────────────────┐
+                │ Send File Response           │
+                │ - res.download()             │
+                │ - Content-Type header        │
+                │ - X-Content-Type-Options     │
+                └─────────┬────────────────────┘
+                          │
+                          ▼
+                ┌──────────────────────┐
+                │ Browser Downloads    │
+                │ File with original   │
+                │ filename             │
+                └──────────────────────┘
+
+================================================================================
+
+2. S3 STORAGE DOWNLOAD FLOW
+================================================================================
+
+    ┌─────────────────┐
+    │  Client Request │
+    │  GET /files/:id │
+    │  /download      │
+    └────────┬────────┘
+             │
+             ▼
+    ┌─────────────────────────┐
+    │ requireAuth Middleware  │
+    └────────┬────────────────┘
+             │
+             ▼
+    ┌─────────────────────────┐
+    │ validateUUID Middleware │
+    └────────┬────────────────┘
+             │
+             ▼
+    ┌──────────────────────────┐
+    │ downloadFile() Service   │
+    └────────┬─────────────────┘
+             │
+             ▼
+    ┌─────────────────────────────────────────┐
+    │ Database Query (User Ownership Check)    │
+    └────────┬────────────────────────────────┘
+             │
+             ▼
+    ┌──────────────────────────┐
+    │ Audit Logging            │
+    └─────────┬────────────────┘
+              │
+              ▼
+    ┌─────────────────────────┐
+    │ Check STORAGE_TYPE      │
+    │ === 's3'                │
+    └────────┬────────────────┘
+             │
+             ▼
+    ┌──────────────────────────────────┐
+    │ Generate S3 Signed URL           │
+    │ storage.getSignedUrl(path, 3600) │
+    └─────────┬────────────────────────┘
+              │
+              ▼
+    ┌──────────────────────────────────┐
+    │ AWS SDK Creates Signed URL       │
+    │ - GetObjectCommand               │
+    │ - S3 bucket credentials sign it  │
+    │ - Expires in 3600 seconds (1 hr) │
+    └─────────┬────────────────────────┘
+              │
+              ▼
+    ┌──────────────────────────────────┐
+    │ Return 302 Redirect Response     │
+    │ Location: https://s3.../signed.. │
+    └─────────┬────────────────────────┘
+              │
+              ▼
+    ┌──────────────────────────────────┐
+    │ Browser Redirects to S3          │
+    │ Follows Location header          │
+    └─────────┬────────────────────────┘
+              │
+              ▼
+    ┌──────────────────────────────────┐
+    │ S3 Validates Signed URL          │
+    │ - Checks signature               │
+    │ - Verifies expiration            │
+    │ - Confirms access rights         │
+    └─────────┬────────────────────────┘
+              │
+              ▼
+    ┌──────────────────────────────────┐
+    │ S3 Streams File to Browser       │
+    │ Direct download from S3          │
+    └──────────────────────────────────┘
+
+================================================================================
+
+3. SECURITY CHECKS FLOW (Both Local & S3)
+================================================================================
+
+    Request → [Authentication]
+              ├─ Bearer token present?       NO → 401 Unauthorized
+              └─ Valid JWT?                  NO → 401 Unauthorized
+                 │
+                 ▼
+              [Validation]
+              ├─ Valid UUID format?          NO → 400 Bad Request
+              └─ File ID exists?             NO → 404 Not Found
+                 │
+                 ▼
+              [Authorization]
+              ├─ File user_id == req.user.id? NO → 404 Not Found
+              └─ is_deleted == FALSE?        NO → 404 Not Found
+                 │
+                 ▼
+              [Audit]
+              └─ Log download action
+                 │
+                 ▼
+              [Response]
+              ├─ Local: serve file with headers
+              └─ S3: redirect to signed URL
+
+================================================================================
+
+4. DETAILED SECURITY VALIDATION SEQUENCE
+================================================================================
+
+Input: fileId, userId, ipAddress
+
+Step 1: Authentication Check
+  └─ Middleware: requireAuth
+     └─ Extract Authorization header
+        └─ Verify JWT signature
+           └─ Attach user to request
+
+Step 2: Request Validation  
+  └─ Middleware: validateUUID
+     └─ Verify fileId is valid UUID format
+        └─ If invalid → throw 400 error
+
+Step 3: User Ownership Verification
+  └─ Service: getFileById(fileId, userId)
+     └─ Query: SELECT * FROM files WHERE id=$1 AND user_id=$2 AND is_deleted=FALSE
+        ├─ If no results → throw "File not found or access denied"
+        └─ If found → return file object
+
+Step 4: Audit Logging
+  └─ Service: createAuditLog({...})
+     └─ INSERT INTO audit_logs
+        └─ Stores: userId, action='download', ipAddress, filename, size, timestamp
+
+Step 5: Storage Access
+  └─ If LOCAL:
+     ├─ Get storage path from database
+     ├─ Construct full filesystem path
+     └─ Serve with Express res.download()
+  └─ If S3:
+     ├─ Get S3 object key from database
+     ├─ Generate signed URL (expires 1 hour)
+     └─ Return 302 redirect
+
+================================================================================
+
+5. DATA FLOW - FILE METADATA
+================================================================================
+
+Database files table columns used in download:
+
+┌─────────────────────┬───────────────┬──────────────────────────────────┐
+│ Column              │ Used for      │ Purpose                          │
+├─────────────────────┼───────────────┼──────────────────────────────────┤
+│ id                  │ Query key     │ Identify file                    │
+│ user_id             │ Authorization │ Verify ownership                 │
+│ original_name       │ Response      │ Filename sent to browser         │
+│ storage_path        │ File access   │ Local path or S3 key             │
+│ mime_type           │ Response      │ Content-Type header              │
+│ size                │ Audit log     │ File size in metadata            │
+│ is_deleted          │ Query filter  │ Prevent access to deleted files  │
+│ created_at          │ Audit log     │ When file was created            │
+└─────────────────────┴───────────────┴──────────────────────────────────┘
+
