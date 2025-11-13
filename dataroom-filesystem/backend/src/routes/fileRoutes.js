@@ -123,6 +123,12 @@ router.get('/:id/download', requireAuth, validateUUID, async (req, res) => {
   try {
     const fileData = await downloadFile(req.params.id, req.user.id, req.ip);
 
+    // If S3 signed URL, redirect to it
+    if (fileData.isSignedUrl) {
+      return res.redirect(fileData.signedUrl);
+    }
+
+    // For local storage, serve file directly
     res.download(fileData.path, fileData.filename, {
       headers: {
         'Content-Type': fileData.mimeType,

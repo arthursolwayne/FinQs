@@ -14,6 +14,7 @@ const {
   getFileCategory,
 } = require('../utils/mimeValidator');
 const { createAuditLog } = require('./auditService');
+const { getStorage } = require('../storage');
 
 /**
  * Upload a file
@@ -41,17 +42,20 @@ async function uploadFile(fileBuffer, originalName, userId, folderId, ipAddress)
   let storagePath;
   let fileSize = fileBuffer.length;
 
-  // If file doesn't exist, write to filesystem
+  // If file doesn't exist, write to storage
   if (existingFile.rows.length === 0) {
     const ext = path.extname(originalName);
-    storagePath = generateStoragePath(contentHash, ext, process.env.UPLOAD_DIR);
+    const storageKey = generateStoragePath(contentHash, ext, '');
 
-    // Create directory if it doesn't exist
-    const dir = path.dirname(storagePath);
-    await fs.mkdir(dir, { recursive: true });
+    // Use storage adapter (works with both local and S3)
+    const storage = getStorage();
+    const result = await storage.store(fileBuffer, storageKey, {
+      contentType: detectedType.mime,
+      originalName: sanitizedName,
+      contentHash,
+    });
 
-    // Write file
-    await fs.writeFile(storagePath, fileBuffer, { mode: 0o644 });
+    storagePath = result.key || result.path || storageKey;
   } else {
     // Reuse existing file storage
     storagePath = existingFile.rows[0].storage_path;
@@ -143,7 +147,7 @@ async function listFiles(userId, folderId = null, options = {}) {
 }
 
 /**
- * Download file - returns file path
+ * Download file - returns file buffer or path
  */
 async function downloadFile(fileId, userId, ipAddress) {
   const file = await getFileById(fileId, userId);
@@ -161,10 +165,25 @@ async function downloadFile(fileId, userId, ipAddress) {
     },
   });
 
+  const storage = getStorage();
+
+  // For S3, return signed URL for direct download
+  if (process.env.STORAGE_TYPE === 's3') {
+    const signedUrl = await storage.getSignedUrl(file.storage_path, 3600); // 1 hour expiry
+    return {
+      signedUrl,
+      filename: file.original_name,
+      mimeType: file.mime_type,
+      isSignedUrl: true,
+    };
+  }
+
+  // For local storage, return file path
   return {
-    path: file.storage_path,
+    path: storage.getFullPath(file.storage_path),
     filename: file.original_name,
     mimeType: file.mime_type,
+    isSignedUrl: false,
   };
 }
 
