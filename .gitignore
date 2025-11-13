@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 
 
+
+# Node.js dependencies in root (not part of project)
+node_modules/
+package.json
+package-lock.json
